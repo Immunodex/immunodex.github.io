@@ -1,6 +1,7 @@
 .bodyFont {
   font-family: "Noto Sans";
 }
+
 .bodyFont.bodyFontColor {
   color: black;
 }
@@ -9,10 +10,34 @@
   font-family: "PT Serif" !important;
 }
 
-.headlinesFont.headlinesFontColor{
+.headlinesFont.headlinesFontColor {
   color: black;
 }
 
+
+/* iphnoe x */
+@media only screen and (device-width : 375px) and (device-height : 812px) and (-webkit-device-pixel-ratio : 3) {
+  .featuresImages {
+    padding-bottom: 16px;
+    padding-top: 16px;
+  }
+}
+
+/* iphone 8 */
+@media only screen and (device-width : 375px) and (device-height : 667px) and (-webkit-device-pixel-ratio : 2) {
+  .featuresImages {
+    padding-bottom: 16px;
+    padding-top: 16px;
+  }
+}
+
+/* iphone 8+ */
+@media only screen and (device-width : 414px) and (device-height : 736px) and (-webkit-device-pixel-ratio : 3) {
+  .featuresImages {
+    padding-bottom: 16px;
+    padding-top: 16px;
+  }
+}
 
 /*Cookie Consent Begin*/
 #cookieConsent {

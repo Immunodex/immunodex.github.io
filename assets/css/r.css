@@ -20,11 +20,12 @@
 }
 
 .titleColor {
-  color: #263458;
+  color: #263458 !important;
 }
 
 .navBarFontWeight {
-  font-weight: 500;
+  font-size: 14px !important;
+  font-weight: 500 !important;
 }
 
 .getImmunodex {

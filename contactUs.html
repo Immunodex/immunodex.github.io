@@ -21,13 +21,10 @@
         <div class="container">
             <!-- Navbar Logo -->
             <a class="ui-variable-logo navbar-brand" href="index.html" title="">
-                <!-- Default Logo -->
-                <img class="logo-default" src="images/ImmunodexLogos/Orange/website-logo-transparent-white.png">
-                <!-- src="assets/img/logo/applify-logo.png" -->
-
+                <img class="logo-default" src="images/ImmunodexLogos/Orange/website-logo-transparent-white.png"
+                    data-uhd>
                 <!-- Transparent Logo -->
-                <img class="logo-transparent" src="images/ImmunodexLogos/Orange/website-logo-transparent-white.png">
-                <!-- src="assets/img/logo/applify-logo-white.png" -->
+                <img class="logo-transparent" src="images/ImmunodexLogos/Red/website-logo-transparent.png" data-uhd>
             </a><!-- .navbar-brand -->
 
             <!-- Navbar Navigation -->
@@ -53,7 +50,9 @@
                         <a href="about.html" target="_blank">About</a>
                         <a href="index.html#about">About</a>
                     </li> -->
-
+                    <li>
+                        <a href="" class="bodyFont">About</a>
+                    </li>
                     <li>
                         <a href="contactUs.html">Contact</a>
                     </li>
@@ -120,7 +119,8 @@
                             <div class="form-group">
                                 <div class="form-group">
                                     <!-- Name Input -->
-                                    <input autocomplete="name" class="input form-control bodyFont" data-validation="required"
+                                    <input autocomplete="name" class="input form-control bodyFont"
+                                        data-validation="required"
                                         data-validation-error-msg="Please enter your full name." type="text" name="name"
                                         id="cName" placeholder="Your Name *">
                                 </div>
@@ -137,8 +137,8 @@
                                     </div>
                                     <div class="col-sm-6">
                                         <!-- Phone Input -->
-                                        <input type="text" name="phone" autocomplete="tel" class="input form-control bodyFont"
-                                            data-validation="required" id="cPhone"
+                                        <input type="text" name="phone" autocomplete="tel"
+                                            class="input form-control bodyFont" data-validation="required" id="cPhone"
                                             data-validation-error-msg="Please enter your phone number."
                                             placeholder="Phone Number *">
                                     </div>
@@ -172,7 +172,7 @@
                                         <span class="icon icon-envelope"></span>
                                         <p>info@mail.com</p>
                                     </li> -->
-                                    <li class="ui-icon-block" >
+                                    <li class="ui-icon-block">
                                         <span class="icon icon-envelope"></span>
                                         <p style="background-color: #263458;" class="bodyFont">info@immunodex.com
                                         </p>
@@ -180,12 +180,14 @@
                                     <li class="ui-icon-block">
                                         <span class="icon"><img src="images/contactUs/hong-kong.png" width="24px"
                                                 height="24px"></span>
-                                        <p style="background-color: #263458;" class="bodyFont">333A, 3/F <br>Core Building 2 <br>1W Science Park Ave <br>Hong Kong</p>
+                                        <p style="background-color: #263458;" class="bodyFont">333A, 3/F <br>Core
+                                            Building 2 <br>1W Science Park Ave <br>Hong Kong</p>
                                     </li>
                                     <li class="ui-icon-block">
                                         <span class="icon"><img src="images/contactUs/canada.png" width="24px"
                                                 height="24px"></span>
-                                        <p  style="background-color: #263458;" class="bodyFont">Unit 8 <br>2857 Sherwood Heights<br>Dr <br>Oakville ON, L6J 7J9 <br>Canada
+                                        <p style="background-color: #263458;" class="bodyFont">Unit 8 <br>2857 Sherwood
+                                            Heights<br>Dr <br>Oakville ON, L6J 7J9 <br>Canada
                                         </p>
                                     </li>
                                 </ul>
@@ -204,18 +206,62 @@
         <!-- <div id="gmap" class="ui-map" data-lat="-26.182559" data-lng="28.061691" data-marker="assets/img/map/map_marker.png"
 	     data-style="style-1" data-zoom="13"></div> -->
 
-        <!-- Footer -->
-        <footer class="ui-footer bg-gray">
+        <footer class="ui-footer bg-indigo" style="background-color: #708198;">
+            <div class="container pt-6 pb-6">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 footer-about footer-col center-on-sm">
+                        <img class="logo-transparent"
+                            src="images/ImmunodexLogos/Orange/website-logo-transparent-white.png"
+                            style="width: auto; height: 25px; margin-bottom: 12px;">
+                        <p class="mt-1 bodyFont">
+                            Immunodex is a verifiable immunity passport that proves your health status in a universally
+                            trusted and privacy-preserving way.
+                        </p>
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <img src="images/gdpr/GDPR compliant - GDPR Copy 13.svg">
+                            </div>
+                            <!-- 
+							<div class="col-sm-6">
+								<img src="images/gdpr/GDPR compliant - GDPR Copy 14.svg">
+							</div> -->
+                        </div>
+
+                    </div>
+                    <div class="col-md-6 col-6 footer-col">
+                        <h6 class="heading footer-heading bodyFont">Site Map</h6>
+                        <ul class="footer-nav">
+                            <li>
+                                <a href="#features" class="bodyFont">Features</a>
+                            </li>
+                            <!-- Nav Item -->
+                            <li>
+                                <a href="#how-it-works" class="bodyFont">How It Works</a>
+                            </li>
+                            <li>
+                                <a href="" class="bodyFont">About</a>
+                            </li>
+                            <li>
+                                <a href="contact.html" class="bodyFont">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                </div><!-- .row -->
+            </div><!-- .container -->
+
+
+
             <!-- Footer Copyright -->
-            <div class="footer-copyright bg-dark-gray">
+            <div class="footer-copyright bg-gray">
                 <div class="container">
                     <div class="row">
                         <!-- Copyright -->
                         <div class="col-sm-6 center-on-sm">
-                            <!-- <p>
-                                &copy; 2017 <a href="http://codeytech.com" target="_blank"
-                                    title="Codeytech">Codeytech</a>
-                            </p> -->
+                            <p>
+                                © <a href="" class="bodyFont"> 2020 Immunoproof Limited. All Rights Reserved.</a>
+                            </p>
                         </div>
                         <!-- Social Icons -->
                         <div class="col-sm-6 text-right">
@@ -226,22 +272,16 @@
                                     </a>
                                 </li>
                                 <!-- <li>
-                                    <a href="#">
-                                        Terms &amp; Conditions
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        FAQ
-                                    </a>
-                                </li> -->
+									<a href="privacyPolicy.html" style="  font-family: Noto Sans">
+										Terms of Use
+									</a>
+								</li> -->
                             </ul>
                         </div>
                     </div>
                 </div><!-- .container -->
             </div><!-- .footer-copyright -->
-
-        </footer><!-- .ui-footer -->
+        </footer>
 
     </div><!-- .main -->
 

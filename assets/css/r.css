@@ -238,3 +238,9 @@ a:hover,
   background-image: url('images/contactUsImg.jpg');
   width: 100%;
 }
+
+/* contact page */
+.submitBtnStyle {
+  background-color: #FB3E45;
+  color: #fff;
+}

@@ -234,13 +234,17 @@ a:hover,
 /*Cookie Consent End*/
 
 
-.contactUsBgImg {
-  background-image: url('images/contactUsImg.jpg');
-  width: 100%;
-}
 
 /* contact page */
 .submitBtnStyle {
   background-color: #FB3E45;
   color: #fff;
 }
+
+/* .contactUsBgImg {
+  display: block;
+  content: '';
+  opacity: 0.9;
+
+  background: linear-gradient(45deg, #f7f7f7 0%, #d5d7f1 100%);
+} */

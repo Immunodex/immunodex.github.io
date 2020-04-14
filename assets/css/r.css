@@ -113,6 +113,15 @@ a:hover,
     /* padding-bottom: 16px;
     padding-top: 16px; */
   }
+
+  .sectionToCenter {
+    text-align: center;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .sectionBottom {
+    padding-bottom: 0rem;
+  }
 }
 
 /* iphone 8 */
@@ -121,6 +130,14 @@ a:hover,
     /* padding-bottom: 16px;
     padding-top: 16px; */
   }
+  .sectionToCenter {
+    text-align: center;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .sectionBottom {
+    padding-bottom: 0rem;
+  }
 }
 
 /* iphone 8+ */
@@ -128,6 +145,15 @@ a:hover,
   .featuresImages {
     /* padding-bottom: 16px;
     padding-top: 16px; */
+  }
+  .sectionToCenter {
+    text-align: center;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .sectionBottom {
+    padding-bottom: 0rem;
   }
 }
 
@@ -183,3 +209,9 @@ a:hover,
 }
 
 /*Cookie Consent End*/
+
+
+.contactUsBgImg {
+  background-image: url('images/contactUsImg.jpg');
+  width: 100%;
+}

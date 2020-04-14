@@ -15823,6 +15823,7 @@ body.modal-open {
   width: 100%;
   z-index: 1;
   background: linear-gradient(45deg, #f7f7f7 0%, #d5d7f1 100%);
+  /* background-image: url("images/contactUsImg.jpg"); */
 }
 
 .section.waves-layer .container {

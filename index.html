@@ -6,11 +6,13 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Immunodex</title>
 	<link rel="icon" type="image/png" href="images/ImmunodexLogos/Red/website-logo-stacked.jpg">
+	<script src="https://kit.fontawesome.com/4e53011674.js" crossorigin="anonymous"></script>
 	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:600,700" rel="stylesheet">
 	<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:600" rel="stylesheet">
 	<link rel="stylesheet" href="assets/css/applify.min.css" />
 	<link rel="stylesheet" href="assets/css/r.css" />
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans|PT+Serif&display=swap" rel="stylesheet">
 </head>
 
 <body class="ui-transparent-nav" data-fade_in="on-load">
@@ -22,9 +24,9 @@
 			<!-- Navbar Logo -->
 			<a class="ui-variable-logo navbar-brand" href="index.html" title=" ">
 				<!-- Default Logo -->
-				<img class="logo-default" src="images/ImmunodexLogos/Red/website-logo-horizontal.jpg" alt=" " data-uhd>
+				<img class="logo-default" src="images/ImmunodexLogos/Orange/website-logo-horizontal-dark.png" data-uhd>
 				<!-- Transparent Logo -->
-				<img class="logo-transparent" src="images/ImmunodexLogos/Red/website-logo-horizontal-dark.png" alt=" "
+				<img class="logo-transparent" src="images/ImmunodexLogos/Orange/website-logo-transparent-white.png"
 					data-uhd>
 			</a><!-- .navbar-brand -->
 
@@ -63,17 +65,23 @@
 
 					<!-- Nav Item -->
 					<li>
-						<a href="#features" data-scrollto="features" class="headlinesFont">Features</a>
+						<a href="#features" data-scrollto="features" class="bodyFont">Features</a>
 					</li>
 
 					<!-- Nav Item -->
 					<li>
-						<a href="#how-it-works" data-scrollto="how-it-works" class="headlinesFont">How It Works</a>
+						<a href="#how-it-works" data-scrollto="how-it-works" class="bodyFont">How It Works</a>
 					</li>
 
 					<!-- Nav Item -->
+
 					<li>
-						<a href="contactUs.html" class="headlinesFont">Contact Us</a>
+						<a href="" class="bodyFont">About</a>
+					</li>
+
+
+					<li>
+						<a href="contactUs.html" class="bodyFont">Contact Us</a>
 					</li>
 					<!-- Nav Item -->
 					<!-- <li class="dropdown">
@@ -107,7 +115,8 @@
 			<!--.ui-navigation -->
 
 			<!-- Navbar Button -->
-			<a href="contactUs.html" class="btn btn-sm ui-gradient-peach headlinesFont">Get Immunodex</a>
+			<a href="contactUs.html" class="btn btn-sm headlinesFont" style="background-color: #E82735;">Get
+				Immunodex</a>
 
 			<!-- Navbar Toggle -->
 			<a href="#" class="ui-mobile-nav-toggle"></a>
@@ -145,16 +154,18 @@
 							</p>
 							<div class="actions sp-layer" data-show-transition="up" data-show-delay="500"
 								data-show-duration="500">
-								<a href="#features" class="btn shadow-xl" style="background-color: #E82735;">Learn
+								<a href="#features" class="btn shadow-xl"
+									style="opacity: 1; border: 2px solid white;">Learn
 									More</a>
-								<a href="contactUs.html" class="btn shadow-xl" style="background-color: #E82735;">Get
+								<a href="contactUs.html" class="btn shadow-xl navyBlueHover"
+									style="background-color: #E82735;">Get
 									Immunodex</a>
 							</div>
 						</div>
 						<div class="col-md-6 sp-layer" data-show-transition="left" data-show-delay="300"
 							data-show-duration="1000">
-							<img src="images/immunodex-top.png" alt="Applify - App Landing Page HTML Template" data-uhd
-								data-max_width="640" class="responsive-on-sm" />
+							<img src="images/immunodex-top.png" alt="" data-uhd data-max_width="640"
+								class="responsive-on-sm" />
 						</div>
 					</div><!-- .row -->
 				</div><!-- .container -->
@@ -196,7 +207,7 @@
 		<div id="features" class="section bg-light">
 			<div class="container ui-icon-blocks ui-blocks-h icons-lg">
 				<div class="section-heading center">
-					<h2 class="heading text-indigo headlinesFont">
+					<h2 class="heading text-indigo headlinesFont titleColor">
 						Features & Functionalities
 					</h2>
 					<!-- <p class="paragraph">
@@ -205,44 +216,45 @@
 				</div><!-- .section-heading -->
 				<div class="row">
 					<div class="col-sm-3 ui-icon-block">
-						<div class="icon icon-lg icon-circle"><img class="featuresImages"
-								src="images/featuresIcon/file.png"><img>
+						<div class="icon icon-lg"><img class="featuresImages "
+								src="images/featuresIcon/verifiableimmunitypassport.png"
+								style="width: 50px; border-bottom:3px solid #263458; text-decoration:none;"><img>
 						</div>
 						<h4 class="headlinesFont">Verifiable Immunity Passport (VIP)</h4>
-						<p class="bodyFont">
+						<p class="bodyFont col1st">
 							Securely deliver a patient’s Covid-19 PCR and antibody test results to their VIP on
 							Immunodex. We use this to generate a trusted, tamper-proof credential that can be used to
 							validate their fitness to work or travel.
 						</p>
 					</div>
 					<div class="col-sm-3 ui-icon-block">
-						<div class="icon icon-lg icon-circle"><img class="featuresImages"
-								src="images/featuresIcon/time-management.png"><img>
+						<div class="icon icon-lg"><img class="featuresImages " src="images/featuresIcon/patientflow.png"
+								style="width: 50px; border-bottom:3px solid #263458; text-decoration:none;"><img>
 						</div>
 						<h4 class="headlinesFont">Coordinate Patient Flow</h4>
-						<p class="bodyFont">
+						<p class="bodyFont col2nd">
 							Streamline the scheduling, reminding and follow-up of testing appointments. Availabilities
 							can be adapted to changes in patient volume and acuity.
 
 						</p>
 					</div>
 					<div class="col-sm-3 ui-icon-block">
-						<div class="icon icon-lg icon-circle"><img class="featuresImages"
-								src="images/featuresIcon/statistics.png"><img>
+						<div class="icon icon-lg"><img class="featuresImages" src="images/featuresIcon/statistics.png"
+								style="width: 50px; border-bottom:3px solid #263458; text-decoration:none;"><img>
 						</div>
 						<h4 class="headlinesFont">Accurate Epidemiological Monitoring</h4>
-						<p class="bodyFont">
+						<p class="bodyFont col3rd">
 							Ensure that data from from mass screening programmes is unalterable, with traceability to
 							origin. Data profiles can be tailored to specific objectives or requirements.
 						</p>
 					</div>
 
 					<div class="col-sm-3 ui-icon-block">
-						<div class="icon icon-lg icon-circle"><img class="featuresImages"
-								src="images/featuresIcon/usb-cable.png"><img>
+						<div class="icon icon-lg"><img class="featuresImages" src="images/featuresIcon/plugnplay.png"
+								style="width: 50px; border-bottom:3px solid #263458; text-decoration:none;"><img>
 						</div>
 						<h4 class="headlinesFont">Rapid Implementation</h4>
-						<p class="bodyFont">
+						<p class="bodyFont col4th">
 							Implement our plug-and-play technology at pandemic speed. Any camera-enabled device can
 							issue and verify credentials.
 						</p>
@@ -256,7 +268,7 @@
 			<div class="container">
 				<!-- Section Heading -->
 				<div class="section-heading center">
-					<h2 class="heading text-indigo headlinesFont">
+					<h2 class="heading text-indigo headlinesFont titleColor">
 						How it Works
 
 					</h2>
@@ -280,7 +292,7 @@
 									An authorized patient books a testing appointment on Immunodex. Our app reminds them
 									with location and time prior to the reservation.
 								</p>
-								<a href="contactUs.html" class="btn-link btn-arrow">Explore</a>
+								<a href="contactUs.html" class="btn-link btn-arrow">Learn More</a>
 							</div>
 							<div class="col-md-6">
 								<img class="responsive-on-xs" src="images/immunodex-how-1.png" data-uhd="" alt=" "
@@ -301,7 +313,7 @@
 									a record in their VIP. Once test results are confirmed, the record gets updated with
 									a specific health status and directives.
 								</p>
-								<a href="contactUs.html" class="btn-link btn-arrow">Explore</a>
+								<a href="contactUs.html" class="btn-link btn-arrow">Learn More</a>
 							</div>
 							<div class="col-md-6">
 								<img class="responsive-on-xs" src="images/immunodex-how-2.png" data-uhd="" alt=" "
@@ -321,7 +333,7 @@
 									With the patient’s consent, an inspector checks their health status by scanning a QR
 									code on their VIP, authorizing them to proceed with the task at hand.
 								</p>
-								<a href="contactUs.html" class="btn-link btn-arrow">Explore</a>
+								<a href="contactUs.html" class="btn-link btn-arrow">Learn More</a>
 							</div>
 							<div class="col-md-6">
 								<img class="responsive-on-xs" src="images/immunodex-how-3.png" data-uhd="" alt=" "
@@ -333,7 +345,7 @@
 			</div><!-- .container -->
 		</div>
 
-		<div id="integrate" class="section" style="background-color: #65d6b6;">
+		<div id="integrate" class="section" style="background-color: #263458;">
 			<div class="container">
 				<div class="row">
 
@@ -361,7 +373,8 @@
 							<li class="ui-icon-block">
 								<span class="icon"></span>
 								<p class="bodyFont" style="color: white;">
-									Self-sovereign, meaning consent-based and privacy-preserving. Specific data can be
+									<i class="fas fa-check-circle"></i> Self-sovereign, meaning consent-based and
+									privacy-preserving. Specific data can be
 									anonymized via zero-knowledge proof cryptography
 								</p>
 								<!-- <a href="contactUs.html" style="color: white;" class="btn-link btn-arrow">
@@ -371,7 +384,8 @@
 							<li class="ui-icon-block">
 								<span class="icon"></span>
 								<p class="bodyFont" style="color: white;"">
-									Option to digitally sign with revocable ring signatures for higher privacy
+									<i class=" fas fa-check-circle"></i> Option to digitally sign with revocable ring signatures for higher
+									privacy
 									protection
 
 								</p>
@@ -382,7 +396,8 @@
 							<li class="ui-icon-block">
 								<span class="icon"></span>
 								<p class="bodyFont" style="color: white;">
-									Safeguard against theft and fraud with complete traceability in data provenance
+									<i class="fas fa-check-circle"></i> Safeguard against theft and fraud with complete
+									traceability in data provenance
 								</p>
 								<!-- <a href="contactUs.html" style="color: white;" class="btn-link btn-arrow">
 									Learn More
@@ -391,7 +406,8 @@
 							<li class="ui-icon-block">
 								<span class="icon"></span>
 								<p class="bodyFont" style="color: white;">
-									GDPR-compliant (we’re working towards HIPAA compliance)
+									<i class="fas fa-check-circle"></i> GDPR-compliant (we’re working towards HIPAA
+									compliance)
 
 								</p>
 								<!-- <a href="contactUs.html" style="color: white;" class="btn-link btn-arrow">
@@ -404,105 +420,9 @@
 					<!-- Right Column -->
 					<div class="col-lg-7 col-xl-6">
 
-						<!-- Logo Cloud -->
-						<div class="ui-logos-cloud">
-							<div data-size="4" class="mt-0 animate fade-in animated" data-show="fade-in"
-								style="width: 40px; height: 40px;">
-								<img src="assets/img/3rd-party-logos/logo.png" data-uhd=""
-									alt="Applif App Landing Page">
-							</div>
-							<div data-size="10" class="mt-0 animate fade-in animated" data-show="fade-in"
-								style="width: 100px; height: 100px;">
-								<img src="assets/img/3rd-party-logos/logo.png" data-uhd=""
-									alt="Applif App Landing Page">
-							</div>
-							<div data-size="7" class="mt-0 animate fade-in animated" data-show="fade-in"
-								style="width: 70px; height: 70px;">
-								<img src="assets/img/3rd-party-logos/logo.png" data-uhd=""
-									alt="Applif App Landing Page">
-							</div>
-
-							<!-- Flex Break -->
-							<span class="flex-break"></span>
-
-							<div data-size="4" class="animate fade-in animated" data-show="fade-in"
-								style="width: 40px; height: 40px;">
-								<img src="assets/img/3rd-party-logos/logo.png" data-uhd=""
-									alt="Applif App Landing Page">
-							</div>
-							<div data-size="10" class="animate fade-in animated" data-show="fade-in"
-								style="width: 100px; height: 100px;">
-								<img src="assets/img/3rd-party-logos/logo.png" data-uhd=""
-									alt="Applif App Landing Page">
-							</div>
-							<div data-size="4" class="animate fade-in animated" data-show="fade-in"
-								style="width: 40px; height: 40px;">
-								<img src="assets/img/3rd-party-logos/logo.png" data-uhd=""
-									alt="Applif App Landing Page">
-							</div>
-							<div data-size="6" class="animate fade-in animated" data-show="fade-in"
-								style="width: 60px; height: 60px;">
-								<img src="assets/img/3rd-party-logos/logo.png" data-uhd=""
-									alt="Applif App Landing Page">
-							</div>
-							<div data-size="3" class="animate fade-in animated" data-show="fade-in"
-								style="width: 30px; height: 30px;">
-								<img src="assets/img/3rd-party-logos/logo.png" data-uhd=""
-									alt="Applif App Landing Page">
-							</div>
-
-							<!-- Flex Break -->
-							<span class="flex-break"></span>
-
-							<div data-size="8" class="animate fade-in animated" data-show="fade-in"
-								style="width: 80px; height: 80px;">
-								<img src="assets/img/3rd-party-logos/logo.png" data-uhd=""
-									alt="Applif App Landing Page">
-							</div>
-							<div data-size="3" class="animate fade-in animated" data-show="fade-in"
-								style="width: 30px; height: 30px;">
-								<img src="assets/img/3rd-party-logos/logo.png" data-uhd=""
-									alt="Applif App Landing Page">
-							</div>
-							<div data-size="10" class="animate fade-in animated" data-show="fade-in"
-								style="width: 100px; height: 100px;">
-								<img src="assets/img/3rd-party-logos/logo.png" data-uhd=""
-									alt="Applif App Landing Page">
-							</div>
-							<div data-size="5" class="animate fade-in animated" data-show="fade-in"
-								style="width: 50px; height: 50px;">
-								<img src="assets/img/3rd-party-logos/logo.png" data-uhd=""
-									alt="Applif App Landing Page">
-							</div>
-
-							<!-- Flex Break -->
-							<span class="flex-break"></span>
-
-							<div data-size="3" class="animate fade-in animated" data-show="fade-in"
-								style="width: 30px; height: 30px;">
-								<img src="assets/img/3rd-party-logos/logo.png" data-uhd=""
-									alt="Applif App Landing Page">
-							</div>
-							<div data-size="10" class="animate fade-in animated" data-show="fade-in"
-								style="width: 100px; height: 100px;">
-								<img src="assets/img/3rd-party-logos/logo.png" data-uhd=""
-									alt="Applif App Landing Page">
-							</div>
-							<div data-size="7" class="animate fade-in animated" data-show="fade-in"
-								style="width: 70px; height: 70px;">
-								<img src="assets/img/3rd-party-logos/logo.png" data-uhd=""
-									alt="Applif App Landing Page">
-							</div>
-
-							<!-- Flex Break -->
-							<span class="flex-break"></span>
-
-							<div data-size="4" class="mb-0 animate fade-in animated" data-show="fade-in"
-								style="width: 40px; height: 40px;">
-								<img src="assets/img/3rd-party-logos/logo.png" data-uhd=""
-									alt="Applif App Landing Page">
-							</div>
-						</div><!-- .ui-logo-cloud  -->
+						<div class="col">
+							<img src="images/immunodexblockchain2-01.png" width="100%">
+						</div>
 
 					</div>
 				</div><!-- .row -->
@@ -510,29 +430,40 @@
 		</div>
 
 		<div class="section bg-overlay bg-overlay-gradient-blue" data-uhd="" data-bg="images/pexels-photo-408503.jpg"
-			style="background-image: url(&quot;assets/img/backgrounds/bg-1.jpg&quot;);">
+			style="background-image: url(&quot;assets/img/backgrounds/bg-1.jpg&quot;); ">
 			<div class="container">
 				<div class="section-heading center mb-0">
 					<!-- * Replace data-video with your youtube video id -->
 					<!-- <a class="ui-video-toggle video-toggle-lg mb-2" data-video="1C75bKax4Eg">
 						<span class="icon fa fa-play bg-indigo"></span>
 					</a> -->
-					<h2 class="heading headlinesFont ">
-						Covid-19 is not the last pandemic. Don’t let the next one shut you down.
+					<h2 class="heading headlinesFont">
+						<div class="titleColor">Covid-19 is not the last pandemic. Don’t let the next one shut you down.
+						</div>
 					</h2>
+
 					<p class="paragraph bodyFont">
 						Help us help you break out of the outbreak.
 					</p>
+
+					<br>
+					<div class="actions sp-layer" data-show-transition="up" data-show-delay="500"
+						data-show-duration="500" style="padding-top: 25px;">
+
+						<a href="contactUs.html#form" class="btn shadow-xl navyBlueHover"
+							style="background-color: #263458; color: white;">Get in Touch
+							</a>
+					</div>
 				</div><!-- .section-heading -->
 			</div><!-- .container -->
 		</div>
 
 
-		<footer class="ui-footer bg-indigo">
+		<footer class="ui-footer bg-indigo" style="background-color: #708198;">
 			<div class="container pt-6 pb-6">
 				<div class="row">
-					<div class="col-md-4 col-sm-6 footer-about footer-col center-on-sm">
-						<img class="logo-transparent" src="images/ImmunodexLogos/Red/website-logo-horizontal-dark.png"
+					<div class="col-md-6 col-sm-6 footer-about footer-col center-on-sm">
+						<img class="logo-transparent" src="images/ImmunodexLogos/Orange/website-logo-transparent-white.png"
 							style="width: auto; height: 25px; margin-bottom: 12px;">
 						<p class="mt-1 bodyFont">
 							Immunodex is a verifiable immunity passport that proves your health status in a universally
@@ -542,88 +473,33 @@
 							<div class="col-sm-4">
 								<img src="images/gdpr/GDPR compliant - GDPR Copy 13.svg">
 							</div>
-
+<!-- 
 							<div class="col-sm-6">
 								<img src="images/gdpr/GDPR compliant - GDPR Copy 14.svg">
-							</div>
+							</div> -->
 						</div>
 
 					</div>
-					<div class="col-md-2 col-6 footer-col">
-						<h6 class="heading footer-heading headlinesFont">Site Map</h6>
+					<div class="col-md-6 col-6 footer-col">
+						<h6 class="heading footer-heading bodyFont">Site Map</h6>
 						<ul class="footer-nav">
 							<li>
-								<a href="#features" class="headlinesFont">Features</a>
+								<a href="#features" class="bodyFont">Features</a>
 							</li>
 							<!-- Nav Item -->
 							<li>
-								<a href="#how-it-works" class="headlinesFont">How It Works</a>
+								<a href="#how-it-works" class="bodyFont">How It Works</a>
 							</li>
 							<li>
-								<a href="" class="headlinesFont">About</a>
+								<a href="" class="bodyFont">About</a>
 							</li>
 							<li>
-								<a href="contact.html" class="headlinesFont">Contact Us</a>
+								<a href="contact.html" class="bodyFont">Contact Us</a>
 							</li>
 						</ul>
 					</div>
-					<div class="col-md-2 col-6 footer-col">
-						<!-- <h6 class="heading footer-heading">Other Pages</h6>
-						<ul class="footer-nav">
-							<li>
-								<a href="page-api-docs.html">API Docs</a>
-							</li>
-							<li>
-								<a href="page-pricing.html">Pricing Page</a>
-							</li>
-							<li>
-								<a href="page-contact.html">Contact page</a>
-							</li>
-							<li>
-								<a href="page-blog-grid.html">Blog Grid</a>
-							</li>
-							<li>
-								<a href="page-coming-soon.html">Comig Soon</a>
-							</li>
-							<li>
-								<a href="page-404.html">404 Error</a>
-							</li>
-						</ul> -->
-					</div>
-					<div class="col-md-4 col-sm-6 footer-col center-on-sm">
-						<h6 class="heading footer-heading headlinesFont">Newsletter</h6>
-						<!-- Form -->
-						<form action="" method="POST">
-							<div class="form-group">
-								<div class="input-group">
-									<!-- Email Input -->
-									<input autocomplete="email" type="email" class="bodyFont input form-control"
-										data-validation-error-msg="Please enter your email" name="EMAIL"
-										placeholder="Email">
-									<div class="input-group-append">
-										<!-- Submit Button -->
-										<button class="btn ui-gradient-peach headlinesFont" value="Subscribe"
-											name="subscribe">Subscribe <span class="fa fa-send"></span>
-										</button>
-									</div>
-								</div>
-							</div>
-						</form>
-						<div>
-							<!-- <a class="btn ui-gradient-blue btn-circle shadow-md">
-								<span class="fa fa-facebook"></span>
-							</a>
-							<a class="btn ui-gradient-peach btn-circle shadow-md">
-								<span class="fa fa-instagram"></span>
-							</a>
-							<a class="btn ui-gradient-green btn-circle shadow-md">
-								<span class="fa fa-twitter"></span>
-							</a>
-							<a class="btn ui-gradient-purple btn-circle shadow-md">
-								<span class="fa fa-pinterest"></span>
-							</a> -->
-						</div>
-					</div>
+			
+			
 				</div><!-- .row -->
 			</div><!-- .container -->
 
@@ -641,7 +517,7 @@
 						<div class="col-sm-6 text-right">
 							<ul class="footer-nav">
 								<li>
-									<a href="privacyPolicy.html" style="  font-family: Noto Sans">
+									<a class="bodyFont" href="privacyPolicy.html">
 										Privacy Policy
 									</a>
 								</li>
@@ -660,7 +536,8 @@
 
 		<div id="cookieConsent">
 			<div id="closeCookieConsent"></div>
-			To know more about the privacy policy  <a href="privacyPolicy.html" target="_blank">More info</a>. <a class="cookieConsentOK">That's
+			To know more about the privacy policy <a href="privacyPolicy.html" target="_blank">More info</a>. <a
+				class="cookieConsentOK">That's
 				Fine</a>
 		</div>
 

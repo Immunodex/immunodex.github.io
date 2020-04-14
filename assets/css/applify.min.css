@@ -15568,7 +15568,7 @@ body.modal-open {
 
 .navbar.transparent:not(.text-dark) .btn, .navbar.transparent.dark:not(.text-dark) .btn, .navbar.transparent.light:not(.text-dark) .btn, .navbar.transparent.bg-primary:not(.text-dark) .btn {
   background: #FFF;
-  color: #8089ff;
+  color: #fff;
 }
 
 .navbar .ui-variable-logo .logo-default {
@@ -15822,6 +15822,7 @@ body.modal-open {
   height: 100%;
   width: 100%;
   z-index: 1;
+  background: linear-gradient(45deg, #f7f7f7 0%, #d5d7f1 100%);
 }
 
 .section.waves-layer .container {
@@ -18195,4 +18196,11 @@ body.coming-soon .ui-counter > div .label {
 .error404-page .main .error404-wrapper .heading {
   font-size: 3.6rem;
   margin: 2rem 0;
+}
+
+
+.ui-steps .step-wrapper .step-number,
+.ui-steps .step-wrapper .step-number::before {
+  background: linear-gradient(45deg, #e8274b 0%, #f7854f 100%);
+  border-radius: 100%;
 }

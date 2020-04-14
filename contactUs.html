@@ -6,10 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Immunodex</title>
-	<link rel="icon" type="image/png" href="images/ImmunodexLogos/Red/website-logo-stacked.jpg">
+    <link rel="icon" type="image/png" href="images/ImmunodexLogos/Red/website-logo-stacked.jpg">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:600,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:600" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/applify.min.css" />
+    <link rel="stylesheet" href="assets/css/r.css" />
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans|PT+Serif&display=swap" rel="stylesheet">
 </head>
 
 <body class="ui-transparent-nav" data-fade_in="on-load">
@@ -20,11 +22,11 @@
             <!-- Navbar Logo -->
             <a class="ui-variable-logo navbar-brand" href="index.html" title="">
                 <!-- Default Logo -->
-                <img class="logo-default" src="images/ImmunodexLogos/Orange/website-logo-horizontal.jpg">
+                <img class="logo-default" src="images/ImmunodexLogos/Orange/website-logo-transparent-white.png">
                 <!-- src="assets/img/logo/applify-logo.png" -->
 
                 <!-- Transparent Logo -->
-                <img class="logo-transparent" src="images/ImmunodexLogos/Orange/website-logo-horizontal.jpg">
+                <img class="logo-transparent" src="images/ImmunodexLogos/Orange/website-logo-transparent-white.png">
                 <!-- src="assets/img/logo/applify-logo-white.png" -->
             </a><!-- .navbar-brand -->
 
@@ -67,29 +69,30 @@
     </nav> <!-- nav -->
 
     <!-- Hero -->
-    <div class="ui-hero hero-sm bg-dark-gray hero-svg-layer-4">
+    <div class="ui-hero hero-sm bg-dark-gray hero-svg-layer-4"
+        style="  background: linear-gradient(45deg, #f7f7f7 0%, #d5d7f1 100%);">
         <div class="container">
-            <h1 class="heading headlinesFont">
+            <h1 class="heading headlinesFont" style="color: #263458;">
                 We’re defining digital identity for health
             </h1>
-            <p class="paragraph" style="  font-family: Noto Sans;">
+            <p class="paragraph bodyFont bodyFontColor">
                 Identity is everything in today’s world. Are you who you claim you are? Do you have what you claim to
                 have? Current identity systems - archaic, insecure and forgeable - can’t reliably answer these
                 questions. This is what we’re tackling at Immunodex.
             </p>
             <br>
-            <p class="paragraph" style="  font-family: Noto Sans;">
+            <p class="paragraph bodyFont bodyFontColor">
                 We’re starting with what matters most - health. Governments should safeguard the health of their
                 citizens, hospitals their staff and patients, businesses their employees. These institutions need
                 verifiably healthy people to function.
             </p>
             <br>
-            <p class="paragraph" style="  font-family: Noto Sans;">
+            <p class="paragraph bodyFont bodyFontColor">
                 Our mission is to provide everyone a trusted health-based identity, establishing a global immunity
                 network that any institution can rely on for making and enforcing strategy and policy.
             </p>
             <br>
-            <p class="paragraph" style="  font-family: Noto Sans;">
+            <p class="paragraph bodyFont bodyFontColor">
                 Get in touch to see how we can help you.
             </p>
 
@@ -100,13 +103,13 @@
     <div class="main" role="main">
 
         <!--  Section -->
-        <div class="section contact-section">
+        <div class="section contact-section" id="form">
             <div class="container">
                 <div class="row">
                     <div class="col-md-7">
                         <div class="section-heading mb-2">
-                            <h3 class="heading text-indigo">Send a message</h3>
-                            <p>
+                            <h3 class="heading text-indigo headlinesFont">Send a message</h3>
+                            <p class="bodyFont">
                                 We will respond within 36 hours.
                             </p>
                         </div>
@@ -117,7 +120,7 @@
                             <div class="form-group">
                                 <div class="form-group">
                                     <!-- Name Input -->
-                                    <input autocomplete="name" class="input form-control" data-validation="required"
+                                    <input autocomplete="name" class="input form-control bodyFont" data-validation="required"
                                         data-validation-error-msg="Please enter your full name." type="text" name="name"
                                         id="cName" placeholder="Your Name *">
                                 </div>
@@ -126,7 +129,7 @@
                                 <div class="row">
                                     <div class="col-sm-6">
                                         <!-- Email Input -->
-                                        <input autocomplete="email" class="input form-control"
+                                        <input autocomplete="email" class="input form-control bodyFont"
                                             data-validation="required"
                                             data-validation-error-msg="Please enter your email address."
                                             placeholder="Email Address *" type="text" name="email"
@@ -134,7 +137,7 @@
                                     </div>
                                     <div class="col-sm-6">
                                         <!-- Phone Input -->
-                                        <input type="text" name="phone" autocomplete="tel" class="input form-control"
+                                        <input type="text" name="phone" autocomplete="tel" class="input form-control bodyFont"
                                             data-validation="required" id="cPhone"
                                             data-validation-error-msg="Please enter your phone number."
                                             placeholder="Phone Number *">
@@ -142,18 +145,18 @@
                                 </div>
                             </div>
                             <div class="form-group">
-                                <textarea class="input form-control" data-validation="required"
+                                <textarea class="input form-control bodyFont" data-validation="required"
                                     data-validation-error-msg="Please leave a message." type="text" name="message"
                                     id="msg" placeholder="Your Message" rows="3"></textarea>
                             </div>
 
-                            <button type="" class="btn btn-block ui-gradient-green shadow-md">Submit</button>
+                            <button type="" class="btn btn-block ui-gradient-green shadow-md bodyFont">Submit</button>
                         </form><!-- Form -->
                     </div>
                     <div class="col-md-5">
-                        <div class="ui-card form-card shadow-xl bg-indigo">
+                        <div class="ui-card form-card shadow-xl bg-indigo" style="background-color: #263458;">
                             <div class="card-header pb-0">
-                                <h3 class="heading">Contact Info</h3>
+                                <h3 class="heading headlinesFont">Contact Info</h3>
                             </div>
                             <div class="card-body">
                                 <ul class="ui-icon-blocks ui-blocks-v">
@@ -169,20 +172,20 @@
                                         <span class="icon icon-envelope"></span>
                                         <p>info@mail.com</p>
                                     </li> -->
-                                    <li class="ui-icon-block">
+                                    <li class="ui-icon-block" >
                                         <span class="icon icon-envelope"></span>
-                                        <p>info@immunodex.com
+                                        <p style="background-color: #263458;" class="bodyFont">info@immunodex.com
                                         </p>
                                     </li>
                                     <li class="ui-icon-block">
                                         <span class="icon"><img src="images/contactUs/hong-kong.png" width="24px"
                                                 height="24px"></span>
-                                        <p>333A, 3/F <br>Core Building 2 <br>1W Science Park Ave <br>Hong Kong</p>
+                                        <p style="background-color: #263458;" class="bodyFont">333A, 3/F <br>Core Building 2 <br>1W Science Park Ave <br>Hong Kong</p>
                                     </li>
                                     <li class="ui-icon-block">
                                         <span class="icon"><img src="images/contactUs/canada.png" width="24px"
                                                 height="24px"></span>
-                                        <p>Unit 8 <br>2857 Sherwood Heights<br>Dr <br>Oakville ON, L6J 7J9 <br>Canada
+                                        <p  style="background-color: #263458;" class="bodyFont">Unit 8 <br>2857 Sherwood Heights<br>Dr <br>Oakville ON, L6J 7J9 <br>Canada
                                         </p>
                                     </li>
                                 </ul>
@@ -218,7 +221,7 @@
                         <div class="col-sm-6 text-right">
                             <ul class="footer-nav">
                                 <li>
-                                    <a href="privacyPolicy.html">
+                                    <a class="bodyFont" href="privacyPolicy.html">
                                         Privacy Policy
                                     </a>
                                 </li>

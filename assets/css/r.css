@@ -1,5 +1,5 @@
 .bodyFont {
-  font-family: "Noto Sans";
+  font-family: 'Noto Sans', sans-serif;
 }
 
 .bodyFont.bodyFontColor {
@@ -7,7 +7,7 @@
 }
 
 .headlinesFont {
-  font-family: "PT Serif" !important;
+  font-family: 'PT Serif', serif;
 }
 
 .headlinesFont.headlinesFontColor {
@@ -16,31 +16,118 @@
 
 .featuresImages {
   /* padding-bottom: 8px; */
-  padding-top:24px;
+  padding-top: 24px;
+}
+
+.titleColor {
+  color: #263458;
+}
+
+a:hover,
+.navyBlueHover:hover {
+  color: #263458;
+}
+
+/* @media screen and (min-width: 1440px) {
+  .col1st {
+    padding-top: 25px;
+  }
+  .col2nd {
+    padding-top: 25px;
+  }
+  .col3rt {
+
+  }
+  .col4th {
+    padding-top: 50px;
+  }
+} */
+
+
+
+
+@media screen and (min-width: 768px) {
+  .col1st {
+    padding-top: 0px;
+  }
+  .col2nd {
+    padding-top: 27px;
+  }
+  .col3rt {
+
+  }
+  .col4th {
+    padding-top: 25px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .col1st {
+    padding-top: 0px;
+  }
+  .col2nd {
+    padding-top: 27px;
+  }
+  .col3rt {
+
+  }
+  .col4th {
+    padding-top: 25px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .col1st {
+    padding-top: 25px;
+  }
+  .col2nd {
+    padding-top: 25px;
+  }
+  .col3rt {
+
+  }
+  .col4th {
+    padding-top: 55px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .col1st {
+    padding-top: 25px;
+  }
+  .col2nd {
+    padding-top: 25px;
+  }
+  .col3rt {
+
+  }
+  .col4th {
+    padding-top: 55px;
+  }
 }
 
 
 /* iphnoe x */
 @media only screen and (device-width : 375px) and (device-height : 812px) and (-webkit-device-pixel-ratio : 3) {
   .featuresImages {
-    padding-bottom: 16px;
-    padding-top: 16px;
+    /* padding-bottom: 16px;
+    padding-top: 16px; */
   }
 }
 
 /* iphone 8 */
 @media only screen and (device-width : 375px) and (device-height : 667px) and (-webkit-device-pixel-ratio : 2) {
   .featuresImages {
-    padding-bottom: 16px;
-    padding-top: 16px;
+    /* padding-bottom: 16px;
+    padding-top: 16px; */
   }
 }
 
 /* iphone 8+ */
 @media only screen and (device-width : 414px) and (device-height : 736px) and (-webkit-device-pixel-ratio : 3) {
   .featuresImages {
-    padding-bottom: 16px;
-    padding-top: 16px;
+    /* padding-bottom: 16px;
+    padding-top: 16px; */
   }
 }
 

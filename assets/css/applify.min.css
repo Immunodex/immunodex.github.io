@@ -15445,11 +15445,11 @@ body.modal-open {
 }
 
 .navbar .nav > li > a:hover, .navbar .nav > li > a:active {
-  color: #8089ff;
+  color: #263458;
 }
 
 .navbar .nav > li.active > a {
-  color: #8089ff;
+  color: #263458;
 }
 
 .navbar.navbar-dark .nav > li.active > a {
@@ -15559,7 +15559,7 @@ body.modal-open {
 }
 
 .navbar.transparent:not(.text-dark) .navbar-nav > li > a:hover, .navbar.transparent.dark:not(.text-dark) .navbar-nav > li > a:hover, .navbar.transparent.light:not(.text-dark) .navbar-nav > li > a:hover, .navbar.transparent.bg-primary:not(.text-dark) .navbar-nav > li > a:hover {
-  color: #FFF;
+  color: #263458;
 }
 
 .navbar.transparent:not(.text-dark) .navbar-nav > li.active > a, .navbar.transparent.dark:not(.text-dark) .navbar-nav > li.active > a, .navbar.transparent.light:not(.text-dark) .navbar-nav > li.active > a, .navbar.transparent.bg-primary:not(.text-dark) .navbar-nav > li.active > a {
@@ -15567,8 +15567,8 @@ body.modal-open {
 }
 
 .navbar.transparent:not(.text-dark) .btn, .navbar.transparent.dark:not(.text-dark) .btn, .navbar.transparent.light:not(.text-dark) .btn, .navbar.transparent.bg-primary:not(.text-dark) .btn {
-  background: #FFF;
-  color: #fff;
+  /* background: #FFF;
+  color: #fff; */
 }
 
 .navbar .ui-variable-logo .logo-default {

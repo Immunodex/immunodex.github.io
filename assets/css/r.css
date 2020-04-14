@@ -23,6 +23,20 @@
   color: #263458;
 }
 
+.navBarFontWeight {
+  font-weight: 500;
+}
+
+.getImmunodex {
+  background-color: #E82735;
+  color: white;
+}
+
+a:hover,
+.getImmunodex:hover {
+  color: #263458;
+}
+
 a:hover,
 .navyBlueHover:hover {
   color: #263458;
@@ -50,12 +64,13 @@ a:hover,
   .col1st {
     padding-top: 0px;
   }
+
   .col2nd {
     padding-top: 27px;
   }
-  .col3rt {
 
-  }
+  .col3rt {}
+
   .col4th {
     padding-top: 25px;
   }
@@ -65,12 +80,13 @@ a:hover,
   .col1st {
     padding-top: 0px;
   }
+
   .col2nd {
     padding-top: 27px;
   }
-  .col3rt {
 
-  }
+  .col3rt {}
+
   .col4th {
     padding-top: 25px;
   }
@@ -80,12 +96,13 @@ a:hover,
   .col1st {
     padding-top: 25px;
   }
+
   .col2nd {
     padding-top: 25px;
   }
-  .col3rt {
 
-  }
+  .col3rt {}
+
   .col4th {
     padding-top: 55px;
   }
@@ -95,12 +112,13 @@ a:hover,
   .col1st {
     padding-top: 25px;
   }
+
   .col2nd {
     padding-top: 25px;
   }
-  .col3rt {
 
-  }
+  .col3rt {}
+
   .col4th {
     padding-top: 55px;
   }
@@ -119,6 +137,7 @@ a:hover,
     flex: 0 0 100%;
     max-width: 100%;
   }
+
   .sectionBottom {
     padding-bottom: 0rem;
   }
@@ -130,11 +149,13 @@ a:hover,
     /* padding-bottom: 16px;
     padding-top: 16px; */
   }
+
   .sectionToCenter {
     text-align: center;
     flex: 0 0 100%;
     max-width: 100%;
   }
+
   .sectionBottom {
     padding-bottom: 0rem;
   }
@@ -146,6 +167,7 @@ a:hover,
     /* padding-bottom: 16px;
     padding-top: 16px; */
   }
+
   .sectionToCenter {
     text-align: center;
     flex: 0 0 100%;

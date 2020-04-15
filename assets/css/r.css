@@ -111,11 +111,6 @@ a:hover,
 
 }
 
-@media screen and (max-width: 1200px) {
-  .imgPosition{
-    margin-top: 100px;
-  }
-}
 
 @media screen and (min-width: 900px) {
   .imgPosition{
@@ -163,6 +158,10 @@ a:hover,
 
   .sectionBottom {
     padding-bottom: 0rem;
+  }
+
+  imgPosition{
+    margin-top: 0px;
   }
 }
 

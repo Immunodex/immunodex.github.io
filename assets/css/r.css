@@ -107,7 +107,29 @@ a:hover,
   .col4th {
     padding-top: 55px;
   }
+
+
 }
+
+@media screen and (max-width: 1200px) {
+  .imgPosition{
+    margin-top: 100px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .imgPosition{
+    margin-top: 100px;
+    text-align: center;
+  }
+
+  .imgWidth {
+    width: 440px;
+  }
+
+}
+
+
 
 @media screen and (min-width: 1440px) {
   .col1st {

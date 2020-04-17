@@ -15757,7 +15757,7 @@ blockquote .author {
 .ui-checklist {
   list-style: none;
   padding-left: 0;
-  margin-bottom: 2rem;
+  /* margin-bottom: 2rem; */
 }
 
 .ui-checklist li {

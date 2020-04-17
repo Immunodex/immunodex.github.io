@@ -59,9 +59,14 @@ a:hover,
 } */
 
 
+@media screen and (max-width: 767px) {
+  .media990 {
+    margin-left: 0px;
+  }
+}
 
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   .col1st {
     padding-top: 0px;
   }
@@ -75,7 +80,48 @@ a:hover,
   .col4th {
     padding-top: 25px;
   }
+
+  .aboutImgSetting {
+    width: 100%;
+    /* height: 100%; */
+  }
+
+  .aboutColSettingText {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .aboutColSettingImg {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
 }
+
+
+@media screen and (min-width: 900px) {
+  .imgPosition {
+    margin-top: 100px;
+    text-align: center;
+  }
+
+  .imgWidth {
+    width: 440px;
+  }
+
+}
+
+
+
+@media screen and (max-width: 990px) {
+  .media990 {
+    margin-left: 46px;
+  }
+
+  /* .aboutColSetting2 {
+    font-size: 14px;
+  } */
+}
+
 
 @media screen and (min-width: 1024px) {
   .col1st {
@@ -112,17 +158,7 @@ a:hover,
 }
 
 
-@media screen and (min-width: 900px) {
-  .imgPosition{
-    margin-top: 100px;
-    text-align: center;
-  }
 
-  .imgWidth {
-    width: 440px;
-  }
-
-}
 
 
 
@@ -143,26 +179,36 @@ a:hover,
 }
 
 
-/* iphnoe x */
-@media only screen and (device-width : 375px) and (device-height : 812px) and (-webkit-device-pixel-ratio : 3) {
-  .featuresImages {
-    /* padding-bottom: 16px;
-    padding-top: 16px; */
+@media only screen and (device-width : 1024px)  {
+
+
+  .aboutImgSetting {
+    width: 100%;
+    height: 100%;
   }
 
-  .sectionToCenter {
-    text-align: center;
+
+}
+
+
+
+/* iphone se */
+@media only screen and (device-width : 320px) and (device-height : 568px) {
+  .aboutColSettingText {
     flex: 0 0 100%;
     max-width: 100%;
   }
 
-  .sectionBottom {
-    padding-bottom: 0rem;
+  .aboutColSettingImg {
+    flex: 0 0 100%;
+    max-width: 100%;
   }
 
-  imgPosition{
-    margin-top: 0px;
+  .aboutImgSetting {
+    width: 100%;
   }
+
+
 }
 
 /* iphone 8 */
@@ -181,6 +227,68 @@ a:hover,
   .sectionBottom {
     padding-bottom: 0rem;
   }
+
+  .aboutColSettingText {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .aboutColSettingImg {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .aboutColSetting2 {
+    font-size: 12px;
+    color: white;
+  }
+
+  .aboutImgSetting {
+    width: 100%;
+  }
+
+}
+
+/* iphnoe x */
+@media only screen and (device-width : 375px) and (device-height : 812px) and (-webkit-device-pixel-ratio : 3) {
+  .featuresImages {
+    /* padding-bottom: 16px;
+    padding-top: 16px; */
+  }
+
+  .sectionToCenter {
+    text-align: center;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .sectionBottom {
+    padding-bottom: 0rem;
+  }
+
+  .imgPosition {
+    margin-top: 0px;
+  }
+
+  .aboutImgSetting {
+    width: 100%;
+  }
+
+  .aboutColSettingText {
+    flex: 0 0 80%;
+    max-width: 100%;
+  }
+
+  .aboutColSettingImg {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .aboutColSetting2 {
+    font-size: 12px;
+    color: white;
+  }
+
 }
 
 /* iphone 8+ */
@@ -199,6 +307,28 @@ a:hover,
   .sectionBottom {
     padding-bottom: 0rem;
   }
+
+  .aboutColSettingText {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .aboutColSettingImg {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+
+  .aboutColSetting2 {
+    font-size: 12px;
+    color: white;
+  }
+
+  .aboutImgSetting {
+    width: 100%;
+    /* height: 100%; */
+  }
+
 }
 
 /*Cookie Consent Begin*/
@@ -269,3 +399,67 @@ a:hover,
 
   background: linear-gradient(45deg, #f7f7f7 0%, #d5d7f1 100%);
 } */
+
+
+.aboutColSettingText {
+  padding: 0px;
+}
+
+
+.aboutColSettingImg {
+  padding: 0px;
+}
+
+/* .aboutImgSetting {
+  width: 100%;
+} */
+
+
+.aboutColSetting2 {
+  /* font-size: 1.3vw; */
+  color: white;
+}
+
+.aboutColSetting3 {
+  /* padding-left: 5%;
+  padding-right: 5%; */
+  padding: 5%;
+  margin: auto;
+
+  /* margin-left: 20%;
+  margin-right: 20%; */
+}
+
+@media screen and (min-width: 768px) {
+  .aboutImgSetting {
+    width: 100%;
+    height: 100%;
+  }
+
+  .aboutColSettingText {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .aboutColSettingImg {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 411px) {
+  .aboutImgSetting {
+    width: 100%;
+    /* height: 100%; */
+  }
+
+  .aboutColSettingText {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .aboutColSettingImg {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}

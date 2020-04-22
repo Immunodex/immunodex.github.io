@@ -1,7 +1,7 @@
 
 
 /* bigger than 768 */
-@media screen and (min-width: 768px) { 
+@media screen and (min-width: 768px) {
     .col1st {
         padding-top: 0px;
     }
@@ -32,6 +32,16 @@
         padding-top: 0px;
     }
 
+}
+
+@media screen and (max-width: 768px) {
+    .bodyFontSizeUnify {
+        font-size: 14px !important;
+    }
+
+    .headlinesFontSizeUnify {
+        font-size: 28px;
+    }
 }
 
 @media screen and (min-width: 1200px) { 

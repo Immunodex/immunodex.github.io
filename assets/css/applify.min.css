@@ -120,7 +120,7 @@ section {
 
 body {
   margin: 0;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Noto Sans", sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.4;
@@ -436,7 +436,7 @@ h6,
 .h5,
 .h6 {
   margin-bottom: 0.5rem;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Noto Sans", sans-serif;
   font-weight: 700;
   line-height: 1.1;
   color: inherit;
@@ -15898,12 +15898,12 @@ body[data-fade_in="on-load"],
 }
 
 .ui-accordion .toggle {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Noto Sans", sans-serif;
   position: relative;
   margin-bottom: 0;
   margin-top: 0;
   padding: 1rem 1.5rem;
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: 700;
   cursor: pointer;
   transition: color 0.25s ease-out;
@@ -15955,7 +15955,7 @@ body[data-fade_in="on-load"],
 * ----------------------------------------------------------------------- *
 */
 .btn {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Noto Sans", sans-serif;
   display: inline-block;
   font-size: .9rem;
   padding: .6rem 1.5rem;
@@ -15990,7 +15990,7 @@ body[data-fade_in="on-load"],
 }
 
 .btn-link {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Noto Sans", sans-serif;
   display: inline-block;
   font-size: .9rem;
   font-weight: 600;
@@ -16371,7 +16371,7 @@ body[data-fade_in="on-load"],
 
 .ui-footer ul.footer-nav li a {
   display: block;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Noto Sans", sans-serif;
   font-weight: 600;
   font-size: .95rem;
 }
@@ -16818,7 +16818,7 @@ body[data-fade_in="on-load"],
 }
 
 .ui-hero .hero-price {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Noto Sans", sans-serif;
   font-weight: 700;
   font-size: 1.6rem;
   vertical-align: middle;
@@ -17396,7 +17396,7 @@ body.modal-open {
   display: block;
   position: fixed;
   width: 100%;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Noto Sans", sans-serif;
   align-items: inherit;
   box-shadow: 0 5px 10px rgba(0, 9, 128, 0.035), 0 7px 18px rgba(0, 9, 128, 0.05);
   transition: box-shadow 0.35s ease-out, background-color 0.35s ease-out;
@@ -18055,7 +18055,7 @@ body.modal-open {
 * ----------------------------------------------------------------------- *
 */
 .ui-tabs .nav-tabs {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Noto Sans", sans-serif;
   margin-bottom: 2rem;
 }
 
@@ -18377,7 +18377,7 @@ body.modal-open {
   height: 30px;
   line-height: 30px;
   color: #fff;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Noto Sans", sans-serif;
   font-size: 1.4rem;
   font-weight: 600;
   text-align: center;
@@ -19429,7 +19429,7 @@ body.modal-open {
 }
 
 .ui-pricing-card .ui-card .card-header .price {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Noto Sans", sans-serif;
   margin-bottom: 1rem;
 }
 
@@ -19597,7 +19597,7 @@ body.modal-open {
 }
 
 .ui-testimonials .item .ui-card p {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Noto Sans", sans-serif;
   color: #414c5a;
   margin-bottom: 0;
   font-weight: 600;
@@ -19864,7 +19864,7 @@ body.coming-soon .ui-counter>div .label {
 .ui-pricing-table .pricing-block .promo {
   text-transform: uppercase;
   padding: 0 1rem;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Noto Sans", sans-serif;
   font-weight: 600;
   border-top-left-radius: 0.5rem;
   border-top-right-radius: 0.5rem;
@@ -19883,12 +19883,12 @@ body.coming-soon .ui-counter>div .label {
 }
 
 .ui-pricing-table .pricing-block .pricing-header .price-plan {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Noto Sans", sans-serif;
   font-weight: 600;
 }
 
 .ui-pricing-table .pricing-block .pricing-header .price-wrapper {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Noto Sans", sans-serif;
   font-weight: 600;
   font-size: 1.3rem;
   height: 46px;
@@ -19971,7 +19971,7 @@ body.coming-soon .ui-counter>div .label {
   }
 
   .ui-pricing-table .pricing-block .pricing-header .price-plan {
-    font-family: "Source Sans Pro", sans-serif;
+    font-family: "Noto Sans", sans-serif;
     font-size: 1.5rem;
     font-weight: 700;
   }
@@ -20173,7 +20173,7 @@ body.coming-soon .ui-counter>div .label {
 
 #ui-api-docs .docs-sidebar ul li a {
   color: #414c5a;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Noto Sans", sans-serif;
   font-weight: 600;
 }
 
@@ -20229,7 +20229,7 @@ body.coming-soon .ui-counter>div .label {
 
 #ui-api-docs .docs-article-links li a {
   display: block;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Noto Sans", sans-serif;
   font-weight: 600;
 }
 

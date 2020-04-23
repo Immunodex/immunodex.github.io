@@ -15902,9 +15902,9 @@ body[data-fade_in="on-load"],
   position: relative;
   margin-bottom: 0;
   margin-top: 0;
-  padding: 1rem 1.5rem;
+  padding: 1rem 2.5rem 1rem 1.5rem;
   font-size: 1rem;
-  font-weight: 700;
+  font-weight: 400;
   cursor: pointer;
   transition: color 0.25s ease-out;
 }

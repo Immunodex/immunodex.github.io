@@ -16526,6 +16526,7 @@ body[data-fade_in="on-load"],
   font-size: 2.2rem;
   margin-bottom: 0;
   max-width: 100%;
+  letter-spacing:0.02em;
 }
 
 @media (max-width: 767px) {
@@ -16662,6 +16663,7 @@ body[data-fade_in="on-load"],
 .ui-hero .heading {
   margin-bottom: 1rem;
   font-size: 2.6rem;
+  letter-spacing:0.02em;
 }
 
 @media (min-width: 576px) {

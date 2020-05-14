@@ -43,6 +43,11 @@ a:hover,
   color: #263458;
 }
 
+.text-red {
+  color: #ff575d;
+  font-weight:1000;
+}
+
 /* @media screen and (min-width: 1440px) {
   .col1st {
     padding-top: 25px;

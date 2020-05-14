@@ -14332,7 +14332,7 @@ a:hover,
 .ui-card.bg-light-gray,
 .ui-card.bg-light-gray .card-body p {
   color: rgba(255, 255, 255, 0.85);
-  background-color: #8e9bae;
+  background-color: #d6dfec;
 }
 
 .bg-light-gray .heading,
@@ -17795,6 +17795,7 @@ body.modal-open {
   position: relative;
   padding: 8rem 0;
   z-index: 1;
+  border-bottom:1px solid #dadada;
 }
 
 .section.section-sm {

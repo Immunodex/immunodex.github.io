@@ -53,6 +53,11 @@ a:hover,
   /* font-weight:1000; */
 }
 
+.heroBg {
+  background-image: url(images/contactUsImg.jpg);
+  background-repeat: no-repeat;
+}
+
 
 
 

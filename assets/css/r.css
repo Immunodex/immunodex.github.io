@@ -48,6 +48,14 @@ a:hover,
   font-weight:1000;
 }
 
+.text-orange {
+  color: #fc5404;
+  /* font-weight:1000; */
+}
+
+
+
+
 /* @media screen and (min-width: 1440px) {
   .col1st {
     padding-top: 25px;

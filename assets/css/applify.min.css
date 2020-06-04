@@ -15771,7 +15771,7 @@ blockquote .author {
   border-bottom: none;
 }
 
-.ui-checklist li::before {
+/* .ui-checklist li::before {
   content: '\f058';
   font-family: 'FontAwesome';
   position: absolute;
@@ -15781,7 +15781,7 @@ blockquote .author {
   line-height: 1;
   margin-top: -0.5rem;
   font-size: 1.2rem;
-}
+} */
 
 .ui-checklist li .heading {
   font-size: 1rem;

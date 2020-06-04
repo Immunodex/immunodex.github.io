@@ -17611,8 +17611,9 @@ body.modal-open {
 .navbar.transparent.dark:not(.text-dark) .navbar-nav>li>a:hover,
 .navbar.transparent.light:not(.text-dark) .navbar-nav>li>a:hover,
 .navbar.transparent.bg-primary:not(.text-dark) .navbar-nav>li>a:hover {
-  color: #263458;
+  color: #fff;
 }
+
 
 .navbar.transparent:not(.text-dark) .navbar-nav>li.active>a,
 .navbar.transparent.dark:not(.text-dark) .navbar-nav>li.active>a,

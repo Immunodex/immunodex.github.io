@@ -63,6 +63,16 @@ a:hover,
   }
 } */
 
+.textUnderline:hover {
+  text-decoration: underline red;
+}
+
+/* .verCentre {
+  display: flex;
+  align-items: center;
+} */
+
+
 
 @media screen and (max-width: 767px) {
   .media990 {

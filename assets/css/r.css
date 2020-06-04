@@ -108,6 +108,15 @@ a:hover,
   align-items: center;
 } */
 
+.justify {
+  text-align: justify !important;
+}
+
+
+.left {
+  text-align: left !important;
+}
+
 
 
 @media screen and (max-width: 767px) {

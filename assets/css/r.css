@@ -2,6 +2,14 @@
   font-family: 'Noto Sans', sans-serif;
 }
 
+.centre {
+  text-align: center;
+}
+
+.textBlack {
+  color: black !important;
+}
+
 .bodyFont.bodyFontColor {
   color: black;
 }

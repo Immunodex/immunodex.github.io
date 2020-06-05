@@ -1,13 +1,19 @@
-
-
 /* bigger than 768 */
+
+
+@media screen and (max-width: 575px) {
+    .left {
+        text-align: center !important;
+    }
+}
+
 @media screen and (min-width: 768px) {
     .col1st {
         padding-top: 0px;
     }
 
     .col2nd {
-        padding-top: 25px;
+        padding-top: 0px;
     }
 
     .col3rt {}
@@ -42,9 +48,13 @@
     .headlinesFontSizeUnify {
         font-size: 28px;
     }
+
+    .col2nd {
+        padding-top: 50px;
+    }
 }
 
-@media screen and (min-width: 1200px) { 
+@media screen and (min-width: 1200px) {
     .col1st {
         padding-top: 25px;
     }

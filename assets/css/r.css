@@ -77,7 +77,7 @@ a:hover,
 } */
 
 .textUnderline:hover {
-  text-decoration: underline red;
+  text-decoration: underline;
 }
 
 .ui-checklist li .liTop0::before {

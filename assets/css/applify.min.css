@@ -17488,6 +17488,7 @@ body.modal-open {
 
 .navbar .nav>li.active>a {
   color: #263458;
+  text-decoration: underline;
 }
 
 .navbar.navbar-dark .nav>li.active>a {

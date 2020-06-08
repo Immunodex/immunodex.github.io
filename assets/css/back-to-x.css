@@ -192,7 +192,7 @@
 .textcenteredInImg2 {
 	position: absolute;
 	width: 100%;
-	font-weight: 700;
+	/* font-weight: 700; */
 	font-size: 1.1rem !important;
 	top: 50%;
 	color: #000;
@@ -203,8 +203,8 @@
 .textcenteredInImg {
 	position: absolute;
 	width: 100%;
-	font-weight: 700;
-	font-size: 0.9rem !important;
+	/* font-weight: 700; */
+	font-size: 1rem !important;
 	top: 50%;
 	color: #000;
 	left: 50%;

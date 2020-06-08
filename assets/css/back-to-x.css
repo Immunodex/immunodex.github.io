@@ -117,7 +117,7 @@
 
 .owl-nav {
 
-    z-index: 1;
+	z-index: 1;
 
 	position: absolute;
 	top: 258px;
@@ -140,15 +140,15 @@
 
 .owl-prev {
 	float: left;
-	cursor:pointer;
+	cursor: pointer;
 }
 
 .owl-dot {
-	cursor:pointer;
+	cursor: pointer;
 }
 
 .owl-next {
-	cursor:pointer;
+	cursor: pointer;
 	float: right;
 }
 
@@ -158,27 +158,57 @@
 }
 
 .owl-dot {
-    width: 10px;
-    height: 10px;
-    border-radius: 20px;
-    background: #b7b7b7;
-    display: inline-block;
-    margin: auto 5px;
+	width: 10px;
+	height: 10px;
+	border-radius: 20px;
+	background: #b7b7b7;
+	display: inline-block;
+	margin: auto 5px;
 }
 
 .owl-dots {
-    text-align: center;
-    width: 100%;
-    left: 0;
-    bottom: 0;
+	text-align: center;
+	width: 100%;
+	left: 0;
+	bottom: 0;
 }
 
-.mySlidesR {display: none ;}
+.mySlidesR {
+	display: none;
+}
 
 
 
 .activeRed {
-    background: #fff;
+	background: #fff;
+}
+
+.imgDiv {
+	position: relative;
+	text-align: center;
+	/* color: white; */
+}
+
+.textcenteredInImg2 {
+	position: absolute;
+	width: 100%;
+	font-weight: 700;
+	font-size: 1.1rem !important;
+	top: 50%;
+	color: #000;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.textcenteredInImg {
+	position: absolute;
+	width: 100%;
+	font-weight: 700;
+	font-size: 0.9rem !important;
+	top: 50%;
+	color: #000;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
 @media (max-width: 1279px) and (min-width: 781px) {

@@ -21,3 +21,15 @@
 .text-pb-7-mb {
 padding-bottom: 7px;
 }
+
+.textFixOverImg {
+    /* font-weight: 1000px !important; */
+    letter-spacing: 0.05em;
+    color: white !important;
+    text-transform: uppercase;
+    /* padding: 7px 0 0 0; */
+}
+
+.fw900 {
+    font-weight: 900;
+}

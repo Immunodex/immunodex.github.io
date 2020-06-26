@@ -17789,6 +17789,10 @@ body.modal-open {
   background-color: #FFF;
 }
 
+.transparent .ui-mobile-nav-toggle2>div>span{
+  background-color: #000 !important;
+}
+
 /**
 * 25. Sections
 * ----------------------------------------------------------------------- *
@@ -18486,8 +18490,8 @@ body.modal-open {
   }
 }
 
-/* Image Block 
- * Keep Image True Width 
+/* Image Block
+ * Keep Image True Width
  * And Move Off Canvas */
 @media (max-width: 739px) {
   .ui-app-showcase [data-col="img"] img {

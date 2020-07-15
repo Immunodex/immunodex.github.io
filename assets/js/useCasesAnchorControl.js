@@ -17,3 +17,18 @@ function useCaseHrefChange2() {
     // $("#useCasesMB").attr("data-scrollto", "index.html#use-cases");
   }
 }
+
+function useCaseHrefChange3() {
+  if (window.matchMedia("(max-width:767px)").matches) {
+    $("#useCasesMB").attr("href", "index.html#use-casesMB");
+    $("#useCasesMB").attr("data-scrollto", "index.html#use-casesMB");
+  } else if (window.matchMedia("(min-width:768px)").matches) {
+    $("#useCasesMB").attr("href", "index.html#use-cases");
+    $("#useCasesMB").attr("data-scrollto", "index.html#use-cases");
+  }
+}
+
+function hamburgerBtnControlInMB() {
+  var hamburgerBtnInMB = document.getElementById("hamburgerBtnInMB");
+  hamburgerBtnInMB.classList.remove("active");
+}

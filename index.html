@@ -79,30 +79,36 @@
                                         </li> -->
                     <!-- Nav Item -->
                     <li class="textUnderline">
-                        <a href="#about" data-scrollto="about" class="bodyFont navBarFontWeight">About</a>
+                        <a href="#about" data-scrollto="about" class="bodyFont navBarFontWeight"
+                            onclick="hamburgerBtnControlInMB()">About</a>
                     </li>
                     <li class="textUnderline">
-                        <a href="#features" data-scrollto="features" class="bodyFont navBarFontWeight">Features</a>
+                        <a href="#features" data-scrollto="features" class="bodyFont navBarFontWeight"
+                            onclick="hamburgerBtnControlInMB()">Features</a>
                     </li><!-- Nav Item -->
                     <li class="textUnderline">
-                        <a href="#how-it-works" data-scrollto="how-it-works" class="bodyFont navBarFontWeight">How It
+                        <a href="#how-it-works" data-scrollto="how-it-works" class="bodyFont navBarFontWeight"
+                            onclick="hamburgerBtnControlInMB()">How It
                             Works</a>
                     </li>
 
                     <!-- Nav Item -->
                     <li class="textUnderline">
                         <a href="#use-cases" data-scrollto="use-cases" id="useCasesMB"
-                            class="bodyFont navBarFontWeight useCasesMB" onclick="useCaseHrefChange()">Use
+                            class="bodyFont navBarFontWeight useCasesMB"
+                            onclick="useCaseHrefChange(); hamburgerBtnControlInMB()">Use
                             Cases</a>
                     </li>
 
 
                     <!-- Nav Item -->
                     <li class="textUnderline">
-                        <a href="#FAQ" data-scrollto="FAQ" class="bodyFont navBarFontWeight">FAQ</a>
+                        <a href="#FAQ" data-scrollto="FAQ" class="bodyFont navBarFontWeight"
+                            onclick="hamburgerBtnControlInMB()">FAQ</a>
                     </li>
                     <li class="textUnderline">
-                        <a href="contactUs.html" class="bodyFont navBarFontWeight">Contact Us</a>
+                        <a href="contactUs.html" class="bodyFont navBarFontWeight"
+                            onclick="hamburgerBtnControlInMB()">Contact Us</a>
                     </li><!-- Nav Item -->
                     <!-- <li class="dropdown">
                                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
@@ -137,7 +143,7 @@
             <a href="./request-for-demo.html" class="btn btn-sm bodyFont getImmunodex navBarFontWeight"><b>REQUEST
                     DEMO</b></a>
             <!-- Navbar Toggle -->
-            <a href="#" class="ui-mobile-nav-toggle"></a>
+            <a href="#" class="ui-mobile-nav-toggle" id="hamburgerBtnInMB"></a>
         </div><!-- .container -->
     </nav><!-- nav -->
     <!-- Main Wrapper -->
@@ -1122,14 +1128,18 @@
                     <h6 class="heading footer-heading bodyFont">Site Map</h6>
                     <ul class="footer-nav">
                         <li>
+                            <a href="index.html#about" class="bodyFont">About</a>
+                        </li>
+                        <li>
                             <a href="index.html#features" class="bodyFont">Features</a>
                         </li>
-                        <!-- Nav Item -->
                         <li>
                             <a href="index.html#how-it-works" class="bodyFont">How It Works</a>
                         </li>
                         <li>
-                            <a href="index.html#about" class="bodyFont">About</a>
+                            <a href="index.html#use-cases" data-scrollto="index.html#use-cases"
+                                class="bodyFont useCasesMB" id="useCasesMB" onclick="useCaseHrefChange()">Use
+                                Cases</a>
                         </li>
                         <li>
                             <a href="index.html#FAQ" class="bodyFont">FAQ</a>
@@ -1143,8 +1153,6 @@
                         </li>
                     </ul>
                 </div>
-
-
             </div><!-- .row -->
         </div><!-- .container -->
 

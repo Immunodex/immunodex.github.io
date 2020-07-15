@@ -92,7 +92,7 @@
                     <!-- Nav Item -->
                     <li class="textUnderline">
                         <a href="#use-cases" data-scrollto="use-cases" id="useCasesMB"
-                            class="bodyFont navBarFontWeight useCasesMB">Use
+                            class="bodyFont navBarFontWeight useCasesMB" onclick="useCaseHrefChange()">Use
                             Cases</a>
                     </li>
 
@@ -1199,11 +1199,7 @@
         });
 
 
-        if (window.matchMedia("(max-width:767px)").matches) {
-            $("#useCasesMB").attr("href", "#use-casesMB");
-            $("#useCasesMB").attr("data-scrollto", "use-casesMB");
 
-        }
 
 
     </script>
@@ -1213,6 +1209,7 @@
     <script src="assets/js/libs/form-validator/form-validator.min.js"></script>
     <script src="assets/js/libs/bootstrap.js"></script>
     <script src="assets/js/applify/build/applify.js"></script>
+    <script src="assets/js/useCasesAnchorControl.js"></script>
     <script src="assets/js/r.js"></script>
 
 </body>

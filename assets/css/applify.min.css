@@ -17435,8 +17435,8 @@ body.modal-open {
 
 @media (min-width: 740px) {
   .navbar .navbar-brand img {
-    height: 40px;
-    margin-top: -20px;
+    height: 48px;
+    margin-top: -26px;
   }
 }
 

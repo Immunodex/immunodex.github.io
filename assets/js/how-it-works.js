@@ -1,6 +1,6 @@
 var firstInfoTitle = [
   "First, an employee books a doctor's appointment.",
-  "First, you request a health declaration from your user.",
+  "First, request a health declaration from your user.",
 ];
 var firstInfoDesc = [
   "An authorized employee books an appointment for a health assessment or diagnostic testing (as mandated by your organization or law) with a physician on Immunodex. Our app reminds them with location and time prior to the reservation.",

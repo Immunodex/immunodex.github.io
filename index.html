@@ -264,8 +264,10 @@
                         <div class="icon icon-lg"><img class="featuresImages" src="images/newFeatureIcons/secure.png"
                                 style="width: 50px;" /><img /></div>
                         <h4 class="headlinesFont left">Privacy-preserving</h4>
-                        <p class="bodyFont col2nd left">Our user-centric design adheres with principles of the EU GDPR and Pan-Canadian Trust Framework.
-                            Users hold, own and control their data, exchanging it with other parties only upon consent.</p>
+                        <p class="bodyFont col2nd left">Our user-centric design adheres with principles of the EU GDPR
+                            and Pan-Canadian Trust Framework.
+                            Users hold, own and control their data, exchanging it with other parties only upon consent.
+                        </p>
                     </div>
                     <div class="col-sm-3 ui-icon-block">
                         <div class="icon icon-lg"><img class="featuresImages" src="images/newFeatureIcons/gdpr.png"
@@ -323,58 +325,112 @@
         <div id="how-it-works" class="section">
             <div class="container">
                 <!-- Section Heading -->
-                <div class="section-heading center">
+                <div class="section-heading center mb-0-max414 mb-0">
                     <h2 class="heading text-indigo headlinesFont titleColor">How it Works</h2>
-                    <p class="paragraph bodyFont">Issuing or verifying a health credential on Immunodex<br />
-                        is easy</p>
+                    <!-- <p class="paragraph bodyFont">Issuing or verifying a health credential on Immunodex<br />
+                        is easy</p> -->
+                    <p class="paragraph bodyFont">Select your product below</p>
+
+                    <div class="row ">
+                        <div class="col-md-6 col-sm-6 centre w-50 px-0 d-block d-sm-none px-0"
+                            onclick="switchSelected1()">
+                            <div class="my-5 w-100 px-2">
+                                <h3 id="htw-selectedMB1" class="text-white htw-btn htw-selected mx-auto cursor-pointer"
+                                    style="font-size: 0.9rem;">
+                                    HEALTH
+                                    CREDENTIAL</h3>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-sm-6 centre w-50 px-0 d-block d-sm-none px-0"
+                            onclick="switchSelected2()">
+                            <div class="my-5 w-100 px-2">
+                                <h3 id="htw-selectedMB2" class="htw-btn mx-auto cursor-pointer"
+                                    style="font-size: 0.9rem;">
+                                    HEALTH
+                                    DECLARATION</h3>
+                            </div>
+                        </div>
+                    </div>
                 </div><!-- .section-heading -->
                 <!-- UI Steps -->
                 <div class="ui-showcase-blocks ui-steps">
+
                     <!-- Step 1 -->
                     <div class="step-wrapper">
                         <span class="step-number ui-gradient-green">1</span>
                         <div class="row">
+
+                            <div class="col-md-6 col-sm-6 centre d-none d-sm-block" onclick="switchSelected1()">
+                                <div class="my-5 w-100 px-2">
+                                    <h3 id="htw-selected1"
+                                        class="text-white htw-selected mx-auto cursor-pointer htw-btn"
+                                        style="font-size: 1rem;">
+                                        HEALTH
+                                        CREDENTIAL</h3>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 col-sm-6 centre d-none d-sm-block" onclick="switchSelected2()">
+                                <div class="my-5 w-100 px-2">
+                                    <h3 id="htw-selected2" class="mx-auto cursor-pointer htw-btn"
+                                        style="font-size: 1rem;">
+                                        HEALTH
+                                        DECLARATION</h3>
+                                </div>
+                            </div>
+
                             <div class="col-md-6" data-vertical_center="true">
-                                <h4 class="heading headlinesFont text-dark-gray">First, an employee books a doctor's
+                                <h4 class="heading  text-dark-gray headlinesFont" id="htw-info1Title">First, an employee
+                                    books a doctor's
                                     appointment.</h4>
-                                <p class="paragraph bodyFont">An authorized employee books an appointment for a health
+                                <p class="paragraph bodyFont" id="htw-info1Desc">An authorized employee books an
+                                    appointment for a health
                                     assessment or diagnostic testing (as mandated by your organization or law) with a
                                     physician on Immunodex. Our app reminds them with location and time prior to the
                                     reservation.</p><a href="contactUs.html" class="btn-link btn-arrow titleColor">Learn
                                     More</a>
                             </div>
-                            <div class="col-md-6"><img class="responsive-on-xs" src="images/immunodex-how-1-new-2.gif"
-                                    data-uhd="" alt=" " data-max_width="464" style="max-width: 464px;" /></div>
+                            <div class="col-md-6">
+                                <img class="responsive-on-xs" id="htw-info1Img" src="images/immunodex-how-1-new-2.gif"
+                                    data-uhd="" alt=" " data-max_width="464" style="max-width: 464px;" />
+                            </div>
                         </div>
                     </div><!-- Step 2 -->
                     <div class="step-wrapper">
                         <span class="step-number ui-gradient-green">2</span>
                         <div class="row">
                             <div class="col-md-6" data-vertical_center="true">
-                                <h4 class="heading headlinesFont text-dark-gray">Next, the physician performs the
+                                <h4 class="heading text-dark-gray headlinesFont" id="htw-info2Title">Next, the physician
+                                    performs the
                                     assessment & issues the credential</h4>
-                                <p class="paragraph bodyFont">After onsite check-in at the healthcare provider's, the
+                                <p class="paragraph bodyFont" id="htw-info2Desc">After onsite check-in at the healthcare
+                                    provider's, the
                                     employee is assessed by a physician or tested, creating a record in their VHP. The
                                     outcomes are sent directly to the VHP, with any "doctor's orders" if needed.</p><a
                                     href="contactUs.html" class="btn-link btn-arrow titleColor">Learn More</a>
                             </div>
-                            <div class="col-md-6"><img class="responsive-on-xs" src="images/immunodex-how-2-new.png"
-                                    data-uhd="" alt=" " data-max_width="445" style="max-width: 445px;" /></div>
+                            <div class="col-md-6"><img class="responsive-on-xs" id="htw-info2Img"
+                                    src="images/immunodex-how-2-new.png" data-uhd="" alt=" " data-max_width="445"
+                                    style="max-width: 445px;" /></div>
                         </div>
                     </div><!-- Step 2 -->
                     <div class="step-wrapper">
                         <span class="step-number ui-gradient-green">3</span>
                         <div class="row">
                             <div class="col-md-6" data-vertical_center="true">
-                                <h4 class="heading headlinesFont text-dark-gray">The employee's VHP is ready for
+                                <h4 class="heading text-dark-gray headlinesFont" id="htw-info3Title">The employee's VHP
+                                    is ready for
                                     inspection</h4>
-                                <p class="paragraph bodyFont">With their consent, you can now inspect your employee's
+                                <p class="paragraph bodyFont" id="htw-info3Desc">With their consent, you can now inspect
+                                    your employee's
                                     VHP, exchanging information via a QR code and authorizing them to proceed with the
                                     task at hand.</p><a href="contactUs.html"
                                     class="btn-link btn-arrow titleColor">Learn More</a>
                             </div>
-                            <div class="col-md-6"><img class="responsive-on-xs" src="images/immunodex-how-3.gif"
-                                    data-uhd="" alt=" " data-max_width="451" style="max-width: 451px;" /></div>
+                            <div class="col-md-6"><img class="responsive-on-xs" id="htw-info3Img"
+                                    src="images/immunodex-how-3.gif" data-uhd="" alt=" " data-max_width="451"
+                                    style="max-width: 451px;" /></div>
                         </div>
                     </div>
                 </div>
@@ -634,7 +690,8 @@
                                                     <div class="inner product-item" id="product-4342891839554">
                                                         <div class="inner-top">
                                                             <div class="product-top">
-                                                                <div class="product-image image-swap imgDiv">
+                                                                <div
+                                                                    class="product-image image-swap imgDiv cursor-pointer">
                                                                     <img src="./images/useCases/btw_ori.png"
                                                                         class="ucImgSize" onclick="chText1()">
                                                                     <div class="textcenteredInImg textFixOverImg fw900"
@@ -652,7 +709,8 @@
                                                     <div class="inner product-item" id="product-4342891642946">
                                                         <div class="inner-top">
                                                             <div class="product-top">
-                                                                <div class="product-image image-swap imgDiv">
+                                                                <div
+                                                                    class="product-image image-swap imgDiv cursor-pointer">
                                                                     <img src="./images/useCases/bts.png"
                                                                         class="ucImgSize" onclick="chText2()">
                                                                     <div class="textcenteredInImg textFixOverImg fw900"
@@ -670,7 +728,8 @@
                                                     <div class="inner product-item" id="product-4342892167234">
                                                         <div class="inner-top">
                                                             <div class="product-top">
-                                                                <div class="product-image image-swap imgDiv">
+                                                                <div
+                                                                    class="product-image image-swap imgDiv cursor-pointer">
                                                                     <img src="./images/useCases/btsky.png"
                                                                         class="ucImgSize" onclick="chText3()">
                                                                     <div class="textcenteredInImg textFixOverImg fw900"
@@ -688,7 +747,8 @@
                                                     <div class="inner product-item" id="product-4342892298306">
                                                         <div class="inner-top">
                                                             <div class="product-top">
-                                                                <div class="product-image image-swap imgDiv">
+                                                                <div
+                                                                    class="product-image image-swap imgDiv cursor-pointer">
                                                                     <img src="./images/useCases/btc.png"
                                                                         class="ucImgSize" onclick="chText4()">
                                                                     <div class="textcenteredInImg textFixOverImg fw900"
@@ -955,8 +1015,9 @@
                                 <span class="icon"></span>
                                 <p class="bodyFont aboutColSetting2 bodyFontSizeUnify liTop2">
                                     <!-- <i class="fas fa-check-circle"></i>  -->
-                                    In adherence with the principles of the EU GDPR and the Pan-Canadian Trust Framework<a style="display: none;"
-                                        href="./pdf/whitePaper.pdf" download="immunodex-whitepaper">Download
+                                    In adherence with the principles of the EU GDPR and the Pan-Canadian Trust
+                                    Framework<a style="display: none;" href="./pdf/whitePaper.pdf"
+                                        download="immunodex-whitepaper">Download
                                         Whitepaper</a></p>
                                 <!-- <a href="contactUs.html" style="color: white;" class="btn-link btn-arrow">
                                                                         Learn More
@@ -1144,8 +1205,8 @@
                             <a href="index.html#FAQ" class="bodyFont">FAQ</a>
                         </li>
                         <li>
-                            <a href="https://hkmb.hktdc.com/en/1X0AKPKD/venture-hong-kong/Blockchain-solution-to-border-barriers" target="_blank"
-                                download class="bodyFont">Press Release</a>
+                            <a href="https://hkmb.hktdc.com/en/1X0AKPKD/venture-hong-kong/Blockchain-solution-to-border-barriers"
+                                target="_blank" download class="bodyFont">Press Release</a>
                         </li>
                         <li>
                             <a href="./contactUs.html" class="bodyFont">Contact Us</a>
@@ -1192,18 +1253,17 @@
         <div id="closeCookieConsent"></div>This site uses cookies. By continuing to use this site, you agree to the use
         of cookies. For more information, <a href="privacyPolicy.html" target="_blank">click here</a>.<a
             class="cookieConsentOK">Accept</a>
-    </div><!-- .main -->
-    <!-- Scripts -->
+    </div>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script>
-        $(document).ready(function () {
-            setTimeout(function () {
-                $("#cookieConsent").fadeIn(0);
-            }, 4000);
-            $("#closeCookieConsent, .cookieConsentOK").click(function () {
-                $("#cookieConsent").fadeOut(200);
-            });
-        });
+        // $(document).ready(function () {
+        //     setTimeout(function () {
+        //         $("#cookieConsent").fadeIn(0);
+        //     }, 4000);
+        //     $("#closeCookieConsent, .cookieConsentOK").click(function () {
+        //         $("#cookieConsent").fadeOut(200);
+        //     });
+        // });
 
 
 
@@ -1218,6 +1278,8 @@
     <script src="assets/js/applify/build/applify.js"></script>
     <script src="assets/js/useCasesAnchorControl.js"></script>
     <script src="assets/js/r.js"></script>
+    <script src="assets/js/how-it-works.js"></script>
+    <script src="assets/js/use-cases.js"></script>
 
 </body>
 

@@ -13,7 +13,7 @@ var firstImg = [
 
 var secInfoTitle = [
   "Next, the physician performs the assessment & issues the credential",
-  "Next, the user completes the declaration",
+  "Next, the user completes the screening",
 ];
 var secInfoDesc = [
   "After onsite check-in at the healthcare provider's, the employee is assessed by a physician or tested, creating a record in their VHP. The outcomes are sent directly to the VHP, with any" +

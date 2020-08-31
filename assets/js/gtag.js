@@ -1,7 +1,7 @@
 // <!-- Global site tag (gtag.js) - Google Analytics -->
 <script
   async
-  src="https://www.googletagmanager.com/gtag/js?id=UA-176844392-1"
+  src="https://www.googletagmanager.com/gtag/js?id=UA-176844392-2"
 ></script>;
 
 window.dataLayer = window.dataLayer || [];
@@ -10,4 +10,4 @@ function gtag() {
 }
 gtag("js", new Date());
 
-gtag("config", "UA-176844392-1");
+gtag("config", "UA-176844392-2");

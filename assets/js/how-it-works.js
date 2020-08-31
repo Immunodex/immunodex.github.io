@@ -1,10 +1,10 @@
 var firstInfoTitle = [
   "First, an employee books a doctor's appointment.",
-  "First, request a health declaration from your user.",
+  "First, request a health screening from your user.",
 ];
 var firstInfoDesc = [
   "An authorized employee books an appointment for a health assessment or diagnostic testing (as mandated by your organization or law) with a physician on Immunodex. Our app reminds them with location and time prior to the reservation.",
-  "An authorized user (staff, student or client) is notified to complete a health declaration prior to entering your premises. This notification can be set to automatically run at regular intervals.",
+  "An authorized user (staff, student or client) is notified to complete a health screening prior to entering your premises. This notification can be set to automatically run at regular intervals.",
 ];
 var firstImg = [
   "../images/immunodex-how-1-new-2.gif",
@@ -13,7 +13,7 @@ var firstImg = [
 
 var secInfoTitle = [
   "Next, the physician performs the assessment & issues the credential",
-  "Next, the user completes the declaration",
+  "Next, the user completes the screening",
 ];
 var secInfoDesc = [
   "After onsite check-in at the healthcare provider's, the employee is assessed by a physician or tested, creating a record in their VHP. The outcomes are sent directly to the VHP, with any" +

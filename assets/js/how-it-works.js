@@ -1,9 +1,9 @@
 var firstInfoTitle = [
-  "First, an employee books a doctor's appointment.",
+  "First, a user books a doctor's appointment.",
   "First, request a health screening from your user.",
 ];
 var firstInfoDesc = [
-  "An authorized employee books an appointment for a health assessment or diagnostic testing (as mandated by your organization or law) with a physician on Immunodex. Our app reminds them with location and time prior to the reservation.",
+  "An authorized user books an appointment for a health assessment or diagnostic testing (as mandated by your organization or law) with a physician on Immunodex. Our app reminds them with location and time prior to the reservation.",
   "An authorized user (staff, student or client) is notified to complete a health screening prior to entering your premises. This notification can be set to automatically run at regular intervals.",
 ];
 var firstImg = [
@@ -16,7 +16,7 @@ var secInfoTitle = [
   "Next, the user completes the screening",
 ];
 var secInfoDesc = [
-  "After onsite check-in at the healthcare provider's, the employee is assessed by a physician or tested, creating a record in their VHP. The outcomes are sent directly to the VHP, with any" +
+  "After onsite check-in at the healthcare provider's, the user is assessed by a physician or tested, creating a record in their VHP. The outcomes are sent directly to the VHP, with any" +
     "doctor's orders" +
     "if needed.",
   "The user self-assess their health, reporting any symptoms and contact, travel and medical histories in a few taps. Our easy-to-use interface is designed for the elderly and children in mind.",
@@ -27,12 +27,12 @@ var secImg = [
 ];
 
 var thirdInfoTitle = [
-  "The employee's VHP is ready for inspection",
-  "The employee's VHP is ready for inspection",
+  "The user's VHP is ready for inspection",
+  "The user's VHP is ready for inspection",
 ];
 var thirdInfoDesc = [
-  "With their consent, you can now inspect your employee's VHP, exchanging information via a QR code and authorizing them to proceed with the task at hand.",
-  "With their consent, you can now inspect your employee's VHP, exchanging information via a QR code and authorizing them to proceed with the task at hand.",
+  "With their consent, you can now inspect your user's VHP, exchanging information via a QR code and authorizing them to proceed with the task at hand.",
+  "With their consent, you can now inspect your user's VHP, exchanging information via a QR code and authorizing them to proceed with the task at hand.",
   ,
 ];
 var thirdImg = [

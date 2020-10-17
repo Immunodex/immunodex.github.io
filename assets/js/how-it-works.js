@@ -1,3 +1,33 @@
+
+
+
+$(document).ready(function() {
+    switchSelected2();
+});
+
+var UID = {
+	_current: 0,
+	getNew: function(){
+		this._current++;
+		return this._current;
+	}
+};
+
+HTMLElement.prototype.pseudoStyle = function(element,prop,value){
+	var _this = this;
+	var _sheetId = "pseudoStyles";
+	var _head = document.head || document.getElementsByTagName('head')[0];
+	var _sheet = document.getElementById(_sheetId) || document.createElement('style');
+	_sheet.id = _sheetId;
+	var className = "pseudoStyle" + UID.getNew();
+
+	_this.className +=  " "+className;
+
+	_sheet.innerHTML += " ."+className+":"+element+"{"+prop+":"+value+"}";
+	_head.appendChild(_sheet);
+	return this;
+};
+
 var firstInfoTitle = [
   "First, a user books a doctor's appointment.",
   "First, request a health screening from your user.",
@@ -18,7 +48,7 @@ var secInfoTitle = [
 var secInfoDesc = [
   "After onsite check-in at the healthcare provider's, the user is assessed by a physician or tested, creating a record in their VHP. The outcomes are sent directly to the VHP, with any" +
     "doctor's orders" +
-    "if needed.",
+    " if needed.",
   "The user self-assess their health, reporting any symptoms and contact, travel and medical histories in a few taps. Our easy-to-use interface is designed for the elderly and children in mind.",
 ];
 var secImg = [
@@ -61,11 +91,22 @@ var htwInfo3Title = document.getElementById("htw-info3Title");
 var htwInfo3Desc = document.getElementById("htw-info3Desc");
 var htwInfo3Img = document.getElementById("htw-info3Img");
 
+var htwInfo4Title = document.getElementById("htw-info4Title");
+var htwInfo4Desc = document.getElementById("htw-info4Desc");
+var htwInfo4Img = document.getElementById("htw-info4Img");
+var htwStep4wrapper = document.getElementById("htw-step4wrapper");
+
+var htwStep3wrapper = document.getElementById("htw-step3wrapper");
+
 function switchSelected2() {
   if (
     htwSelectedMB1.classList.contains("htw-selected") &&
     htwSelected1.classList.contains("htw-selected")
   ) {
+    htwStep4wrapper.classList.add("d-block");
+    htwStep4wrapper.classList.remove("d-none");
+    htwStep3wrapper.pseudoStyle("after","display","block");
+
     htwSelectedMB2.classList.add("htw-selected", "text-white");
     htwSelected2.classList.add("htw-selected", "text-white");
 
@@ -80,6 +121,10 @@ function switchSelected1() {
     htwSelectedMB2.classList.contains("htw-selected") &&
     htwSelected2.classList.contains("htw-selected")
   ) {
+    htwStep4wrapper.classList.add("d-none");
+    htwStep4wrapper.classList.remove("d-block");
+    htwStep3wrapper.pseudoStyle("after","display","none");
+
     htwSelected1.classList.add("htw-selected", "text-white");
     htwSelectedMB1.classList.add("htw-selected", "text-white");
 

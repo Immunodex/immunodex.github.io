@@ -1,5 +1,10 @@
+.viewPress:hover {
+  color: #fb3e45;
+  /* color: #fff; */
+}
+
 .bodyFont {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: "Noto Sans", sans-serif;
 }
 
 .centre {
@@ -15,7 +20,7 @@
 }
 
 .headlinesFont {
-  font-family: 'Lora', serif;
+  font-family: "Lora", serif;
 }
 
 .headlinesFont.headlinesFontColor {
@@ -37,7 +42,7 @@
 }
 
 .getImmunodex {
-  background-color: #FB3E45;
+  background-color: #fb3e45;
   color: white;
 }
 
@@ -52,8 +57,8 @@ a:hover,
 }
 
 .text-red {
-  color: #252F79;
-  font-weight:1000;
+  color: #252f79;
+  font-weight: 1000;
 }
 
 .text-orange {
@@ -65,9 +70,6 @@ a:hover,
   background-image: url(images/contactUsImg.jpg);
   background-repeat: no-repeat;
 }
-
-
-
 
 /* @media screen and (min-width: 1440px) {
   .col1st {
@@ -89,8 +91,8 @@ a:hover,
 }
 
 .ui-checklist li .liTop0::before {
-  content: '\f058';
-  font-family: 'FontAwesome';
+  content: "\f058";
+  font-family: "FontAwesome";
   position: absolute;
   left: 0;
   color: white;
@@ -101,8 +103,8 @@ a:hover,
 }
 
 .ui-checklist li .liTop1::before {
-  content: '\f058';
-  font-family: 'FontAwesome';
+  content: "\f058";
+  font-family: "FontAwesome";
   position: absolute;
   left: 0;
   color: white;
@@ -113,8 +115,8 @@ a:hover,
 }
 
 .ui-checklist li .liTop2::before {
-  content: '\f058';
-  font-family: 'FontAwesome';
+  content: "\f058";
+  font-family: "FontAwesome";
   position: absolute;
   left: 0;
   color: white;
@@ -133,12 +135,9 @@ a:hover,
   text-align: justify !important;
 }
 
-
 .left {
   text-align: left !important;
 }
-
-
 
 @media screen and (max-width: 767px) {
   .media990 {
@@ -155,10 +154,7 @@ a:hover,
   .imgWidth {
     width: 440px;
   }
-
 }
-
-
 
 @media screen and (max-width: 990px) {
   .media990 {
@@ -170,9 +166,6 @@ a:hover,
   } */
 }
 
-
-
-
 @media screen and (min-width: 1440px) {
   .col1st {
     padding-top: 25px;
@@ -182,7 +175,8 @@ a:hover,
     padding-top: 25px;
   }
 
-  .col3rt {}
+  .col3rt {
+  }
 
   .col4th {
     padding-top: 55px;
@@ -190,7 +184,7 @@ a:hover,
 }
 
 /* iphone se */
-@media only screen and (device-width : 320px) and (device-height : 568px) {
+@media only screen and (device-width: 320px) and (device-height: 568px) {
   .aboutColSettingText {
     flex: 0 0 100%;
     max-width: 100%;
@@ -204,12 +198,10 @@ a:hover,
   .aboutImgSetting {
     width: 100%;
   }
-
-
 }
 
 /* iphone 8 */
-@media only screen and (device-width : 375px) and (device-height : 667px) and (-webkit-device-pixel-ratio : 2) {
+@media only screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) {
   .featuresImages {
     /* padding-bottom: 16px;
     padding-top: 16px; */
@@ -243,11 +235,10 @@ a:hover,
   .aboutImgSetting {
     width: 100%;
   }
-
 }
 
 /* iphnoe x */
-@media only screen and (device-width : 375px) and (device-height : 812px) and (-webkit-device-pixel-ratio : 3) {
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
   .featuresImages {
     /* padding-bottom: 16px;
     padding-top: 16px; */
@@ -285,11 +276,10 @@ a:hover,
     font-size: 12px;
     color: white;
   }
-
 }
 
 /* iphone 8+ */
-@media only screen and (device-width : 414px) and (device-height : 736px) and (-webkit-device-pixel-ratio : 3) {
+@media only screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) {
   .featuresImages {
     /* padding-bottom: 16px;
     padding-top: 16px; */
@@ -315,7 +305,6 @@ a:hover,
     max-width: 100%;
   }
 
-
   .aboutColSetting2 {
     font-size: 12px;
     color: white;
@@ -325,7 +314,6 @@ a:hover,
     width: 100%;
     /* height: 100%; */
   }
-
 }
 
 /*Cookie Consent Begin*/
@@ -346,7 +334,7 @@ a:hover,
 }
 
 #cookieConsent a {
-  color: #4B8EE7;
+  color: #4b8ee7;
   text-decoration: none;
 }
 
@@ -361,11 +349,11 @@ a:hover,
 }
 
 #closeCookieConsent:hover {
-  color: #FFF;
+  color: #fff;
 }
 
 #cookieConsent a.cookieConsentOK {
-  background-color: #F1D600;
+  background-color: #f1d600;
   color: #000;
   display: inline-block;
   border-radius: 5px;
@@ -376,16 +364,14 @@ a:hover,
 }
 
 #cookieConsent a.cookieConsentOK:hover {
-  background-color: #E0C91F;
+  background-color: #e0c91f;
 }
 
 /*Cookie Consent End*/
 
-
-
 /* contact page */
 .submitBtnStyle {
-  background-color: #FB3E45;
+  background-color: #fb3e45;
   color: #fff;
 }
 
@@ -397,11 +383,9 @@ a:hover,
   background: linear-gradient(45deg, #f7f7f7 0%, #d5d7f1 100%);
 } */
 
-
 .aboutColSettingText {
   padding: 0px;
 }
-
 
 .aboutColSettingImg {
   padding: 0px;
@@ -410,7 +394,6 @@ a:hover,
 /* .aboutImgSetting {
   width: 100%;
 } */
-
 
 .aboutColSetting2 {
   /* font-size: 1.3vw; */
@@ -444,8 +427,6 @@ a:hover,
   }
 }
 
-
-
 @media screen and (max-width: 411px) {
   .aboutImgSetting {
     width: 100%;
@@ -463,17 +444,12 @@ a:hover,
   }
 }
 
-
-@media only screen and (device-width : 1024px) {
-
+@media only screen and (device-width: 1024px) {
   .aboutImgSetting {
     width: 100%;
     height: 100%;
   }
-
-
 }
-
 
 @media screen and (max-width: 768px) {
   .aboutImgSetting {
@@ -492,9 +468,8 @@ a:hover,
   }
 }
 
-
 @media screen and (max-width: 767px) {
   .pb-sm-0-roman {
-      padding-bottom: 0px !important;
+    padding-bottom: 0px !important;
   }
 }

@@ -411,6 +411,10 @@ a:hover,
 }
 
 @media screen and (min-width: 768px) {
+  .mt-768-3 {
+    margin-top: 1rem;
+  }
+
   .aboutImgSetting {
     width: 100%;
     height: 100%;
@@ -451,6 +455,12 @@ a:hover,
   }
 }
 
+@media only screen and (device-width: 768px) {
+  .mt-768-3 {
+    margin-top: 1rem;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .aboutImgSetting {
     width: 100%;
@@ -471,5 +481,11 @@ a:hover,
 @media screen and (max-width: 767px) {
   .pb-sm-0-roman {
     padding-bottom: 0px !important;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .mt-768-3 {
+    margin-top: 0rem;
   }
 }

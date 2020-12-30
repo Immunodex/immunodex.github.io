@@ -46,7 +46,7 @@ var secInfoTitle = [
   "Next, the user completes the screening",
 ];
 var secInfoDesc = [
-  "After onsite check-in at the healthcare provider's, the user is assessed by a physician or tested, creating a record in their VHP. The outcomes are sent directly to the VHP, with any" +
+  "After onsite check-in at the healthcare provider's, the user is assessed by a physician or tested, creating a record in their VHP. The outcomes are sent directly to the VHP, with any " +
     "doctor's orders" +
     " if needed.",
   "The user self-assess their health, reporting any symptoms and contact, travel and medical histories in a few taps. Our easy-to-use interface is designed for the elderly and children in mind.",

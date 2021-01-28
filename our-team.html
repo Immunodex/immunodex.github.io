@@ -6,10 +6,14 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-176844392-2"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
         gtag('js', new Date());
 
         gtag('config', 'UA-176844392-2');
+
     </script>
 
     <meta charset="utf-8" />
@@ -28,6 +32,7 @@
     <link rel="stylesheet" href="assets/css/back-to-x.css" />
     <!-- <link rel="stylesheet" href="assets/css/mediaControl.css" /> -->
     <!-- <link rel="stylesheet" href="assets/css/client.css" /> -->
+    <link rel="stylesheet" href="assets/css/dropdown.css" />
     <link rel="stylesheet" href="assets/css/ourTeam.css" />
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -46,6 +51,7 @@
             easing: 'ease-in-sine'
         });
     })
+
 </script>
 
 <body class="ui-transparent-nav" data-fade_in="on-load">
@@ -64,97 +70,35 @@
             <!-- Navbar Navigation -->
             <div class="ui-navigation navbar-right">
                 <ul class="nav navbar-nav">
-                    <!-- Nav Item -->
-                    <!-- <li class="dropdown active">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown">
-							Home
-						</a>
-						<ul class="dropdown-menu">
-							<li class="dropdown-item">
-								<a href="demo-mobile-app-2.html">Mobile App Demo 2</a>
-							</li>
-							<li class="dropdown-item">
-								<a href="demo-saas.html">Saas Demo</a>
-							</li>
-							<li class="dropdown-item">
-								<a href="demo-web-app.html">Web App Demo</a>
-							</li>
-							<li class="dropdown-item active">
-								<a href="demo-hero-slider.html">Slider Hero</a>
-							</li>
-							<li class="dropdown-item">
-								<a href="demo-hero-waves.html">Waves Hero</a>
-							</li>
-							<li class="dropdown-item">
-								<a href="page-coming-soon.html">Coming Soon</a>
-							</li>
-							<li class="dropdown-item">
-								<a href="index.html">All Demos & Pages</a>
-							</li>
-						</ul>
-					</li> -->
+                    <li class="dropdown ">
+                        <a href="#" class="dropdown-toggle bodyFont navBarFontWeight titleColor" data-toggle="dropdown">
+                            About
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-item">
+                                <a href="./our-team.html">Team</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a href="faq.html">FAQs</a>
+                            </li>
 
-                    <!-- Nav Item -->
-
-
-                    <li class="textUnderline">
-                        <a href="index.html#about" class="bodyFont navBarFontWeight titleColor">About</a>
+                        </ul>
                     </li>
-
                     <li class="textUnderline">
                         <a href="index.html#features" class="bodyFont  navBarFontWeight titleColor">Features</a>
                     </li>
-
-                    <!-- Nav Item -->
                     <li class="textUnderline">
                         <a href="index.html#how-it-works" class="bodyFont  navBarFontWeight titleColor">How It Works</a>
                     </li>
-
-                    <!-- Nav Item -->
+                    <!-- <li class="textUnderline">
+                        <a href="./blog.html" class="bodyFont navBarFontWeight titleColor">Blog</a>
+                    </li> -->
                     <li class="textUnderline">
-                        <a href="index.html#use-cases" class="bodyFont navBarFontWeight titleColor" id="useCasesMB"
-                            onclick="useCaseHrefChange2()">Use Cases</a>
+                        <a href="./pricing.html" class="bodyFont navBarFontWeight titleColor">Pricing</a>
                     </li>
-
-                    <!-- Nav Item -->
                     <li class="textUnderline">
-                        <a href="faq.html" class="bodyFont navBarFontWeight titleColor">FAQ</a>
+                        <a href="" class="bodyFont  navBarFontWeight titleColor">Download</a>
                     </li>
-
-                    <!-- Nav Item -->
-                    <li class="textUnderline">
-                        <a href="our-team.html" class="bodyFont navBarFontWeight titleColor">Team</a>
-                    </li>
-
-                    <li class="textUnderline">
-                        <a href="contactUs.html" class="bodyFont  navBarFontWeight titleColor">Contact</a>
-                    </li>
-                    <!-- Nav Item -->
-                    <!-- <li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown">
-							Blog
-						</a>
-						<ul class="dropdown-menu">
-							<li class="dropdown-item">
-								<a href="page-blog-left-sidebar.html">Blog Sidebar Left</a>
-							</li>
-							<li class="dropdown-item">
-								<a href="page-blog-right-sidebar.html">Blog Sidebar Right</a>
-							</li>
-							<li class="dropdown-item">
-								<a href="page-blog-grid.html">Blog Grid</a>
-							</li>
-							<li class="dropdown-item">
-								<a href="page-blog-post-left-sidebar.html">Blog Post Sidebar Left</a>
-							</li>
-							<li class="dropdown-item">
-								<a href="page-blog-post-right-sidebar.html">Blog Post Sidebar Right</a>
-							</li>
-							<li class="dropdown-item">
-								<a href="page-blog-post.html">Blog Post</a>
-							</li>
-						</ul>
-					</li> -->
                 </ul>
                 <!--.navbar-nav -->
             </div>
@@ -185,8 +129,7 @@
                     <div class="col-md-3 col-lg-3 col-sm-12">
                         <div class="row text-center team-frame-s1">
                             <div class="col-12">
-                                <img src="./images/ourTeam/square/Ms. Maryna Danylyuk.png"
-                                    class="img-responsive image-s1">
+                                <img src="./images/ourTeam/square/Ms. Maryna Danylyuk.png" class="img-responsive image-s1">
                             </div>
                             <div class="col-12">
                                 <h5 class="team-m-name-s1">Marina Danylyuk, LLM</h5>
@@ -265,8 +208,7 @@
                     <div class="col-md-3 col-lg-3 col-sm-12">
                         <div class="row text-center team-frame-s1">
                             <div class="col-12">
-                                <img src="./images/ourTeam/square/Ms. Danielle Cadoret.png"
-                                    class="img-responsive image-s1">
+                                <img src="./images/ourTeam/square/Ms. Danielle Cadoret.png" class="img-responsive image-s1">
                             </div>
                             <div class="col-12">
                                 <h5 class="team-m-name-s1">Danielle Cadoret</h5>
@@ -370,8 +312,7 @@
                     <div class="col-md-3 col-lg-3 col-sm-12">
                         <div class="row text-center team-frame-s1">
                             <div class="col-12">
-                                <img src="./images/ourTeam/square/Fabricia Monteiro.png"
-                                    class="img-responsive image-s1">
+                                <img src="./images/ourTeam/square/Fabricia Monteiro.png" class="img-responsive image-s1">
                             </div>
                             <div class="col-12">
                                 <h5 class="team-m-name-s1">Fabricia Monteiro</h5>
@@ -388,8 +329,7 @@
                     <div class="col-md-3 col-lg-3 col-sm-12">
                         <div class="row text-center team-frame-s1">
                             <div class="col-12">
-                                <img src="./images/ourTeam/square/Jeremiah Jr. Valero.png"
-                                    class="img-responsive image-s1">
+                                <img src="./images/ourTeam/square/Jeremiah Jr. Valero.png" class="img-responsive image-s1">
                             </div>
                             <div class="col-12">
                                 <h5 class="team-m-name-s1">Jeremiah Jr. Valero</h5>
@@ -423,8 +363,7 @@
         <div class="container pt-6 pb-6 pb-sm-0-roman sectionBottom">
             <div class="row">
                 <div class="col-md-4 col-sm-12 footer-about footer-col center-on-sm">
-                    <img class="logo-transparent" src="images/ImmunodexLogos/2x/no_margin.png"
-                        style="width: 210.5px;height: 30.75px;">
+                    <img class="logo-transparent" src="images/ImmunodexLogos/2x/no_margin.png" style="width: 210.5px;height: 30.75px;">
                     <p class="mt-1 bodyFont">
                         Immunodex's verifiable credentialing software helps organizations create provably
                         healthier,
@@ -432,8 +371,7 @@
                     </p>
                     <div class="row">
                         <div class="col-sm-12 col-md-4">
-                            <img src="images/gdpr/GDPR compliant - GDPR Copy 13.svg"
-                                style=" width: 116px; height: 53px;">
+                            <img src="images/gdpr/GDPR compliant - GDPR Copy 13.svg" style=" width: 116px; height: 53px;">
                         </div>
                         <!--
                                 <div class="col-sm-6">
@@ -449,9 +387,7 @@
                             <a href="https://www.ibcol.org/" target="_blank"><img class="logo-transparent" src="images/ImmunodexLogos/logo/ibcol_white_no_margin.png" style="width:227px;height:55px"></a>
                         </div>
 
-                        <div class="col-md-12 col-sm-12 mt-4">
-                            <a href="https://venturelab.ca/" target="_blank"><img class="logo-transparent " src="images/ImmunodexLogos/logo/ventureLAB Logo - reverse2.png" style="width:227px;height:55px"></a>
-                        </div>
+
                     </div>
                 </div>
 
@@ -459,31 +395,31 @@
                     <h6 class="heading footer-heading bodyFont">Site Map</h6>
                     <ul class="footer-nav">
                         <li>
-                            <a href="index.html#about" class="bodyFont">About</a>
+                            <a href="./index.html#features" class="bodyFont">Features</a>
                         </li>
                         <li>
-                            <a href="index.html#features" class="bodyFont">Features</a>
+                            <a href="./index.html#how-it-works" class="bodyFont">How It Works</a>
                         </li>
-                        <li>
-                            <a href="index.html#how-it-works" class="bodyFont">How It Works</a>
-                        </li>
-                        <li>
-                            <a href="index.html#use-cases" class="bodyFont useCasesMB" id="useCasesMB2"
-                                onclick="useCaseHrefChange3()">Use
-                                Cases</a>
-                        </li>
-                        <li>
-                            <a href="faq.html" class="bodyFont">FAQ</a>
-                        </li>
+                        <!-- <li>
+                            <a href="blog.html" class="bodyFont">Blog</a>
+                        </li> -->
                         <li>
                             <a href="our-team.html" class="bodyFont">Team</a>
                         </li>
                         <li>
-                            <a href="https://hkmb.hktdc.com/en/1X0AKPKD/venture-hong-kong/Blockchain-solution-to-border-barriers"
-                                target="_blank" download class="bodyFont">Press Release</a>
+                            <a href="pricing.html" class="bodyFont">Pricing</a>
+                        </li>
+                        <li>
+                            <a href="faq.html" class="bodyFont">FAQs</a>
+                        </li>
+                        <li>
+                            <a href="https://hkmb.hktdc.com/en/1X0AKPKD/venture-hong-kong/Blockchain-solution-to-border-barriers" target="_blank" download class="bodyFont">Press Release</a>
                         </li>
                         <li>
                             <a href="./contactUs.html" class="bodyFont">Contact Us</a>
+                        </li>
+                        <li>
+                            <a href="./request-for-demo.html" class="bodyFont">Request Demo</a>
                         </li>
                     </ul>
                 </div>
@@ -526,8 +462,7 @@
     <div id="cookieConsent">
         <div id="closeCookieConsent"></div>This site uses cookies. By continuing to use this site, you agree to
         the use
-        of cookies. For more information, <a href="privacyPolicy.html" target="_blank">click here</a>.<a
-            class="cookieConsentOK">Accept</a>
+        of cookies. For more information, <a href="privacyPolicy.html" target="_blank">click here</a>.<a class="cookieConsentOK">Accept</a>
     </div>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 

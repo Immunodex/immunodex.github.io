@@ -7,6 +7,22 @@
   font-family: "Noto Sans", sans-serif;
 }
 
+.text-underline {
+  text-decoration: underline;
+}
+
+.dropdown-menu {
+  padding: 0px;
+  border-radius: 0px;
+}
+
+.dropdown-menu:hover {
+}
+
+.dropdown-item {
+  padding: 12px 24px;
+}
+
 .centre {
   text-align: center;
 }
@@ -124,6 +140,30 @@ a:hover,
   line-height: 1;
   margin-top: -0.5rem;
   font-size: 1.2rem;
+}
+
+.action-header-3 {
+  width: 20%;
+  text-align: center;
+  color: black;
+  background: lightgrey;
+  padding: 15px;
+}
+
+.why-screen-table table td {
+  border-width: 1px;
+  text-align: center;
+  border-style: solid;
+  border-color: lightgrey;
+  border-image: initial;
+}
+
+.text-c-708198 {
+  color: #708198 !important;
+}
+
+.text-c-414c5a {
+  color: #414c5a !important;
 }
 
 /* .verCentre {

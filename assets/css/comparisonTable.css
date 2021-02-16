@@ -23,7 +23,7 @@ article li:last-child {
   background-color: #fb3e45 !important;
 }
 .themeGrey {
-  background-color: #dadada !important;
+  background-color: #a9a9a9 !important;
 }
 
 button {
@@ -40,7 +40,7 @@ button {
 }
 
 li.active.themeGrey button {
-  background: #dadada;
+  background: #a9a9a9;
   color: #fff;
 }
 
@@ -102,6 +102,12 @@ td.default {
   font-size: 18px;
   color: #2ca01c;
 }
+
+.cross {
+  font-size: 18px;
+  color: red;
+}
+
 .hide {
   border: 0;
   background: none;

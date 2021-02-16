@@ -45,6 +45,13 @@
     <meta property="og:image" content="images/meta/ogImage0.jpg" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
+
+    <style>
+        * {
+            scroll-behavior: smooth;
+        }
+
+    </style>
 </head>
 
 
@@ -63,7 +70,12 @@
             <!-- Navbar Navigation -->
             <div class="ui-navigation navbar-right">
                 <ul class="nav navbar-nav">
-                    <li class="dropdown ">
+
+                    <li class="textUnderline">
+                        <a href="./index.html" class="bodyFont navBarFontWeight text-underline" onclick="hamburgerBtnControlInMB()">Covid-19 Screening</a>
+                    </li>
+
+                    <li class="dropdown">
                         <a href="#" class="dropdown-toggle bodyFont navBarFontWeight" data-toggle="dropdown">
                             About
                         </a>
@@ -77,30 +89,44 @@
 
                         </ul>
                     </li>
-                    <li class="textUnderline">
+                    <!-- <li class="textUnderline">
                         <a href="./index.html#features" data-scrollto="features" class="bodyFont navBarFontWeight" onclick="hamburgerBtnControlInMB()">Features</a>
                     </li>
                     <li class="textUnderline">
                         <a href="./index.html#how-it-works" data-scrollto="how-it-works" class="bodyFont navBarFontWeight" onclick="hamburgerBtnControlInMB()">How It
                             Works</a>
-                    </li>
+                    </li> -->
                     <!-- <li class="textUnderline">
                         <a href="./blog.html" class="bodyFont navBarFontWeight" onclick="hamburgerBtnControlInMB()">Blog</a>
                     </li> -->
-                    <li class="textUnderline">
+                    <!-- <li class="textUnderline">
                         <a href="./pricing.html" class="bodyFont navBarFontWeight" onclick="hamburgerBtnControlInMB()">Pricing</a>
+                    </li> -->
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle bodyFont navBarFontWeight" data-toggle="dropdown">
+                            Resources
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-item">
+                                <a href="./pdf/Immunodex Verifiable Immunity Passport Press Release CN.pdf">Press Release (CN)</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a href="faq.html">FAQs</a>
+                            </li>
+
+                        </ul>
                     </li>
 
                     <li class="textUnderline">
-                        <a href="" class="bodyFont navBarFontWeight" onclick="hamburgerBtnControlInMB()">Downloads</a>
+                        <a href="./contactUs.html" class="bodyFont navBarFontWeight" onclick="hamburgerBtnControlInMB()">Contact Us</a>
                     </li>
                 </ul>
                 <!--.navbar-nav -->
             </div>
             <!--.ui-navigation -->
             <!-- Navbar Button -->
-            <a href="./request-for-demo.html" class="btn btn-sm bodyFont getImmunodex navBarFontWeight"><b>REQUEST
-                    DEMO</b></a>
+            <a href="./request-for-demo.html" class="btn btn-sm bodyFont getImmunodex navBarFontWeight"><b>Book a demo</b></a>
             <!-- Navbar Toggle -->
             <a href="#" class="ui-mobile-nav-toggle" id="hamburgerBtnInMB"></a>
         </div><!-- .container -->
@@ -115,10 +141,15 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6 headlinesFont" data-vertical_center="true" data-vertical_offset="16">
-                            <h1 class="heading sp-layer" data-show-transition="up" data-show-delay="300" data-show-duration="500" style="font-family: Lora;">Contact-Tracing & Health Screening for Companies</h1>
-                            <p class="paragraph sp-layer bodyFont" data-show-transition="up" data-show-delay="400" data-show-duration="500">Keep your staff & customers safe and healthy - and protect individual privacy.</p>
+                            <h1 class="heading sp-layer" data-show-transition="up" data-show-delay="300" data-show-duration="500" style="font-family: Lora;">Privacy-preserving “Know-Your-Health” solutions</h1>
+                            <p class="paragraph sp-layer bodyFont" data-show-transition="up" data-show-delay="400" data-show-duration="500">Leveraging decentralized identity, our technology lets organizations verify the health of their users, without needing to handle sensitive personal data.
+                            </p>
+                            <br>
+                            <b>
+                                <p class="paragraph sp-layer bodyFont">Ready to reopen your business?</p>
+                            </b>
                             <div class="actions sp-layer viewPress" data-show-transition="up" data-show-delay="500" data-show-duration="500">
-                                <a href="https://hkmb.hktdc.com/en/1X0AKPKD/venture-hong-kong/Blockchain-solution-to-border-barriers" class="btn shadow-xl viewPress" style="opacity: 1; border: 2px solid white;" target="_blank">View Press Release</a> <a href="/request-for-demo.html" class="btn shadow-xl navyBlueHover getImmunodex  mt-768-3"><b>REQUEST DEMO</b></a>
+                                <a href="#features" class="btn shadow-xl viewPress" style="opacity: 1; border: 2px solid white;">Learn More</a> <a href="/request-for-demo.html" class="btn shadow-xl navyBlueHover getImmunodex  mt-768-3"><b>Book a demo</b></a>
                             </div>
                         </div>
                         <div class="col-md-6 sp-layer" data-show-transition="left" data-show-delay="300" data-show-duration="1000"><img src="images/covid-19-screening-app-platform-immunodex.png" alt="" data-uhd="" data-max_width="640" class="responsive-on-sm" /></div>
@@ -154,15 +185,84 @@
                         </div>
                 </div> -->
 
+        <div id="about" class="section aboutTable text-center">
+            <div class="container">
+                <h2 class="heading text-indigo headlinesFont titleColor">Why current sholution dont work </h2>
+
+
+                <div class="row">
+
+                    <div class="col-md-12">
+                        <div class="mt-5 why-screen-table">
+                            <table class="table col-md-12">
+                                <tbody>
+
+                                    <tr>
+                                        <th class="action-header-3">
+                                            <a class="immundoex-tbl headlinesFont text-c-414c5a">
+                                                Current Problems
+                                            </a>
+                                        </th>
+                                        <th class="action-header-3">
+                                            <a class="immundoex-tbl headlinesFont text-c-414c5a">
+                                                Immunodex Solution
+                                            </a>
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <td class=""><strong class="headlinesFont text-c-414c5a">Privacy</strong>
+                                            <p class="bodyFont">There is no transparency on how collected data is being used, or who is accessing it.</p>
+                                        </td>
+
+                                        <td>
+                                            <p class="bodyFont">Privacy-preserving cryptography conceals the identities of the data holders, ensuring equitable</p>
+                                        </td>
+
+
+                                    </tr>
+                                    <tr>
+                                        <td class="bodyFont"><strong class="headlinesFont text-c-414c5a">Security</strong>
+                                            <p>Our increasing dependence on digital tools means that our personally identifiable information (PII) are constantly under
+                                                cybersecurity threats.</p>
+                                        </td>
+                                        <td><span class="checkMark">
+                                                <p class="bodyFont">Distributed ledger technology (DLT) ensures that there are no servers storing huge amounts of PII that can be targeted
+                                                    and compromised by malicious actors.</p>
+                                            </span></td>
+
+                                    </tr>
+                                    <tr>
+                                        <td class="bodyFont"><strong class="headlinesFont text-c-414c5a">Trust</strong>
+                                            <p>With fraudulent and improper medical documentation a growing concern, how can be trust records from a different
+                                                jurisdiction or people for who they claim to be?</p>
+                                        </td>
+                                        <td>
+                                            <p class="bodyFont">With distributed ledger, data issued or exchanged is immutable and cannot be forged. Therefore we can rely on the data
+                                                to be accurate and useful for policy.</p>
+                                        </td>
+
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+
+
         <div id="features" class="section bg-light">
             <div class="container ui-icon-blocks ui-blocks-h icons-lg">
                 <div class="section-heading center">
-                    <p class="paragraph" style="margin-bottom:1.5rem">Trust is the only long-term solution</p>
-                    <h2 class="heading text-indigo headlinesFont titleColor">Contract-Tracing and Health Screening the Right Way</h2>
+                    <!-- <p class="paragraph" style="margin-bottom:1.5rem">Trust is the only long-term solution</p> -->
+                    <h2 class="heading text-indigo headlinesFont titleColor">Best-Practice Technology for Health Monitoring</h2>
                     <!-- <p class="paragraph" style="margin-bottom:1rem">Reliability is the only long-term solution</p>
                                         <h5>Immunodex helps you resume business safely & create healthier & safer workplaces</h5> -->
                 </div><!-- .section-heading -->
-                <div class="row">
+                <div class="row justify-content-center">
                     <div class="col-sm-3 ui-icon-block">
                         <div class="icon icon-lg"><img class="featuresImages" src="images/newFeatureIcons/verifiable.png" style="width: 50px;" /><img /></div>
                         <h4 class="headlinesFont center">Private by Design</h4>
@@ -171,34 +271,65 @@
                     <div class="col-sm-3 ui-icon-block">
                         <div class="icon icon-lg"><img class="featuresImages" src="images/newFeatureIcons/secure.png" style="width: 50px;" /><img /></div>
                         <h4 class="headlinesFont center">No Data Storage</h4>
-                        <p class="bodyFont col1st center pt-0">Only end-users hold, own & control their data, in adherence to the GDPR. Your company does not need to store (and be liable for) sensitive personal information.
+                        <p class="bodyFont col1st center pt-0">Only end-users hold, own & control their data, in adherence to the GDPR. Your company does not need to store any sensitive personal information.
                         </p>
                     </div>
                     <div class="col-sm-3 ui-icon-block">
                         <div class="icon icon-lg"><img class="featuresImages" src="images/newFeatureIcons/gdpr.png" style="width: 50px;" /><img /></div>
-                        <h4 class="headlinesFont center">Secure by Design</h4>
-                        <p class="bodyFont col1st center pt-0">Distributed ledger technology (blockchain) mitigates the risk of hacks and data breaches, beyond current standards</p>
+                        <h4 class="headlinesFont center">Trusted</h4>
+                        <p class="bodyFont col1st center pt-0">Data and its changelogs are sealed, preserving data integrity and ensuring traceability to the origin. Prevent identity and credential fraud.</p>
                     </div>
+                    <div class="col-sm-3 ui-icon-block">
+                        <div class="icon icon-lg"><img class="featuresImages" src="images/newFeatureIcons/gdpr.png" style="width: 50px;" /><img /></div>
+                        <h4 class="headlinesFont center">Secure by Design</h4>
+                        <p class="bodyFont col1st center pt-0">Distributed ledger technology (blockchain) mitigates the risk of hacks and data breaches, beyond current standards.</p>
+                    </div>
+
                     <div class="col-sm-3 ui-icon-block">
                         <div class="icon icon-lg"><img class="featuresImages" src="images/newFeatureIcons/accurate%20epidemiological.png" style="width: 50px;" /><img /></div>
                         <h4 class="headlinesFont center">Simple</h4>
-                        <p class="bodyFont col1st center pt-0">Our browser apps run on any camera-enabled device. There’s no need to download anything.</p>
+                        <p class="bodyFont col1st center pt-0">Our browser apps run on any camera-enabled device. There’s no need to download anything or worry about compatibility with older devices.</p>
+                    </div>
+                    <div class="col-sm-3 ui-icon-block">
+                        <div class="icon icon-lg"><img class="featuresImages" src="images/newFeatureIcons/accurate%20epidemiological.png" style="width: 50px;" /><img /></div>
+                        <h4 class="headlinesFont center">Interoperable</h4>
+                        <p class="bodyFont col1st center pt-0">We utilize the HL7® FHIR® and W3C standards for health data interoperability and provide APIs for quick integration into existing systems.</p>
                     </div>
                 </div><!-- .row22 -->
 
             </div><!-- .container -->
         </div>
-        <div id="how-it-works" class="section">
+
+        <div id="Who-we-are" class="section aboutUs">
+            <div class="container text-center">
+                <h2 class="heading text-indigo headlinesFont titleColor section-heading center">Who we are </h2>
+                <p class="bodyFont text-left">Immunodex is a global initiative advocating for the adoption and implementation of privacy-preserving verification technologies in health care. We’re an alliance of academic and industry leaders, driven to revolutionize the status quo of exchanging health data</p>
+                <p class="bodyFont text-left">Fraudsters and malicious actors have no place in today’s world. We empower individuals with the complete ownership and control of their health data, and organizations with the secure end-to-end traceability they need to protect their users’ health. Immunodex is on a mission to establish privacy and trust to every interaction involving health data, an individual’s most personal asset.</p>
+            </div>
+        </div>
+
+        <!-- <div id="Future-proofing health info" class="section futureProofing bg-light">
+            <div class="container">
+                <h2 class="heading text-indigo headlinesFont titleColor section-heading center">Future-proofing health information systems</h2>
+                <div class=" row">
+                    <div class="col-sm-6">
+
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+
+        <div id=" how-it-works" class="section">
             <div class="container">
                 <!-- Section Heading -->
                 <div class="section-heading center mb-0-max414 mb-0">
                     <h2 class="heading text-indigo headlinesFont titleColor">How it Works</h2>
                     <!-- <p class="paragraph bodyFont">Issuing or verifying a health credential on Immunodex<br />
                         is easy</p> -->
-                    <p class="paragraph bodyFont">Issuing or verifying the VHP is easy. Choose your product below:</p>
+                    <!-- <p class="paragraph bodyFont">Issuing or verifying the VHP is easy. Choose your product below:</p> -->
 
-                    <div class="row ">
-
+                    <!-- <div class="row ">
                         <div class="col-md-12 col-sm-12 centre w-100 px-0 d-block d-sm-none px-0" onclick="switchSelected2()">
                             <div class="my-5 w-100 px-2">
                                 <h4 id="htw-selectedMB2" class="htw-btn mx-auto cursor-pointer">
@@ -206,13 +337,7 @@
                                 </h4>
                             </div>
                         </div>
-
-
-
-
-
-
-                    </div>
+                    </div> -->
                 </div><!-- .section-heading -->
                 <!-- UI Steps -->
                 <div class="ui-showcase-blocks ui-steps">
@@ -222,18 +347,18 @@
                         <span class="step-number ui-gradient-green">1</span>
                         <div class="row">
 
-                            <div class="col-md-12 col-sm-12 centre d-none d-sm-block">
+                            <!-- <div class="col-md-12 col-sm-12 centre d-none d-sm-block">
                                 <div class=" my-5 w-100 px-2">
                                     <h4 id="htw-selected2" class="mx-auto htw-btn">
                                         HEALTH SCREENING</h4>
                                 </div>
-                            </div>
+                            </div> -->
 
 
 
 
                             <div class="col-md-6" data-vertical_center="true">
-                                <h4 class="heading  text-dark-gray headlinesFont" id="htw-info1Title">Send a reminder.</h4>
+                                <h4 class="heading  text-dark-gray headlinesFont" id="htw-info1Title">Send a reminder</h4>
                                 <p class="paragraph bodyFont" id="htw-info1Desc">Invite any staff, client, or visitor via email, SMS or web push to complete a Covid-19 health screening before arriving. This notification can be set to automatically repeat at regular intervals.</p><a href="contactUs.html" class="btn-link btn-arrow titleColor">Learn
                                     More</a>
                             </div>
@@ -246,12 +371,12 @@
                         <span class="step-number ui-gradient-green">2</span>
                         <div class="row">
                             <div class="col-md-6" data-vertical_center="true">
-                                <h4 class="heading text-dark-gray headlinesFont" id="htw-info2Title">Complete an assessment in less than 45 seconds.</h4>
-                                <p class="paragraph bodyFont" id="htw-info2Desc">AThe user self-assesses their health, reporting any relevant symptoms and contact, travel, and medical history in a few taps.<br>
+                                <h4 class="heading text-dark-gray headlinesFont" id="htw-info2Title">Complete an assessment in less than 45 seconds</h4>
+                                <p class="paragraph bodyFont" id="htw-info2Desc">The user self-assesses their health, reporting any relevant symptoms and contact, travel, and medical history in a few taps.<br>
 
-                                    <i>
-                                        This can include vaccination and diagnostic test records when available
-                                    </i>
+                                    <b>
+                                        This can include vaccination and diagnostic test records where available.
+                                    </b>
                                 </p><a href="contactUs.html" class="btn-link btn-arrow titleColor">Learn More</a>
                             </div>
                             <div class="col-md-6"><img class="responsive-on-xs" id="htw-info2Img" src="images/immunodex-how-2-new.png" data-uhd="" alt=" " data-max_width="445" style="max-width: 445px;" /></div>
@@ -261,8 +386,8 @@
                         <span class="step-number ui-gradient-green">3</span>
                         <div class="row">
                             <div class="col-md-6" data-vertical_center="true">
-                                <h4 class="heading text-dark-gray headlinesFont" id="htw-info3Title">Verify user’s health screening</h4>
-                                <p class="paragraph bodyFont" id="htw-info3Desc">Users give consent to having their screenings validated. QR-coded entry makes this fast and easy.
+                                <h4 class="heading text-dark-gray headlinesFont" id="htw-info3Title">This can include vaccination and diagnostic test records where available</h4>
+                                <p class="paragraph bodyFont" id="htw-info3Desc">Users give consent to having their health and screening records authenticated with their IDs. QR-coded entry makes this fast and easy.
                                 </p><a href="contactUs.html" class="btn-link btn-arrow titleColor">Learn
                                     More</a>
                             </div>
@@ -277,7 +402,7 @@
                                 <h4 class="heading text-dark-gray headlinesFont" id="htw-info4Title">Monitor the health of your organization in real-time
 
                                 </h4>
-                                <p class="paragraph bodyFont" id="htw-info4Desc">Easily alert users with symptoms to seek medical help before arriving, and flag those who may need additional care.
+                                <p class="paragraph bodyFont" id="htw-info4Desc">Easily alert users with symptoms to seek medical help before they arrive, and flag those who may need additional care. Ensure safe physical contact before it happens.
                                 </p>
                                 <a href="contactUs.html" class="btn-link btn-arrow titleColor">Learn More</a>
                             </div>
@@ -649,9 +774,7 @@
                                                                     An employee
                                                                 </div>
                                                                 <div class="col-md-6 col-sm-6 px-4 desc-pd-7" id="useCasesVerifier">
-                                                                    An employer (e.g. restaurant, shopping mall,
-                                                                    grocery
-                                                                    store, warehouse, etc)
+                                                                    Shopping mall, grocery store, warehouse, manufacturing plant, construction site
 
                                                                 </div>
                                                             </div>
@@ -827,7 +950,7 @@
             <!-- Section Heading -->
             <div class="section-heading center mb-0-max414 mb-0 pb-5">
                 <h2 class="heading text-indigo headlinesFont titleColor">Why Screen with Immunodex?</h2>
-                <p class="paragraph bodyFont">We Lead in Privacy, Security, Trust</p>
+                <p class="paragraph bodyFont">We Lead in Privacy, Security and Trust</p>
             </div>
             <article>
                 <ul class="pl-0">
@@ -852,53 +975,53 @@
                     <tbody>
                         <tr>
                             <td>Automated notifications</td>
-                            <td style="display: table-cell;"><span class="tick">&#10004;</span></td>
-                            <td><span class="tick">&#10004;</span></td>
+                            <td style="display: table-cell;"><span class="tick"><i class="fas fa-check"></i></span></td>
+                            <td><span class="tick"><i class="fas fa-check"></i></span></td>
                         </tr>
                         <tr>
                             <td>Reporting dashboard</td>
-                            <td style="display: table-cell;"><span class="tick">&#10004;</span></td>
-                            <td><span class="tick">&#10004;</span></td>
+                            <td style="display: table-cell;"><span class="tick"><i class="fas fa-check"></i></span></td>
+                            <td><span class="tick"><i class="fas fa-check"></i></span></td>
                         </tr>
                         <tr>
                             <td>API access</td>
-                            <td style="display: table-cell;"><span class="tick">&#10004;</span></td>
-                            <td><span class="tick">&#10004;</span></td>
+                            <td style="display: table-cell;"><span class="tick"><i class="fas fa-check"></i></span></td>
+                            <td><span class="tick"><i class="fas fa-check"></i></span></td>
                         </tr>
                         <tr>
-                            <td>QR-coded entry</td>
-                            <td style="display: table-cell;"><span class="tick">&#10004;</span></td>
-                            <td><span class="tick">&#10004;</span></td>
+                            <td>QR-coded authentication</td>
+                            <td style="display: table-cell;"><span class="tick"><i class="fas fa-check"></i></span></td>
+                            <td><span class="tick"><i class="fas fa-check"></i></span></td>
                         </tr>
                         <tr>
                             <td>Customizable questionnaire</td>
-                            <td style="display: table-cell;"><span class="tick">&#10004;</span></td>
-                            <td><span class="tick">&#10004;</span></td>
+                            <td style="display: table-cell;"><span class="tick"><i class="fas fa-check"></i></span></td>
+                            <td><span class="tick"><i class="fas fa-check"></i></span></td>
                         </tr>
                         <tr>
                             <td>System warranty</td>
-                            <td style="display: table-cell;"><span class="tick">&#10004;</span></td>
-                            <td><span class="tick">&#10004;</span></td>
+                            <td style="display: table-cell;"><span class="tick"><i class="fas fa-check"></i></span></td>
+                            <td><span class="tick"><i class="fas fa-check"></i></span></td>
                         </tr>
                         <tr>
                             <td>Decentralized (enterprise blockchain) architecture</td>
-                            <td style="display: table-cell;"><span class="tick">&#10004;</span></td>
-                            <td></td>
+                            <td style="display: table-cell;"><span class="tick"><i class="fas fa-check"></i></span></td>
+                            <td><span class="cross"><i class="fas fa-times"></i></span></td>
                         </tr>
                         <tr>
                             <td>Cryptographically enabled privacy protection</td>
-                            <td style="display: table-cell;"><span class="tick">&#10004;</span></td>
-                            <td></td>
+                            <td style="display: table-cell;"><span class="tick"><i class="fas fa-check"></i></span></td>
+                            <td><span class="cross"><i class="fas fa-times"></i></span></td>
                         </tr>
                         <tr>
                             <td>Bank-grade cybersecurity standards</td>
-                            <td style="display: table-cell;"><span class="tick">&#10004;</span></td>
-                            <td></td>
+                            <td style="display: table-cell;"><span class="tick"><i class="fas fa-check"></i></span></td>
+                            <td><span class="cross"><i class="fas fa-times"></i></span></td>
                         </tr>
                         <tr>
                             <td>GDPR and HIPAA ready</td>
-                            <td style="display: table-cell;"><span class="tick">&#10004;</span></td>
-                            <td></td>
+                            <td style="display: table-cell;"><span class="tick"><i class="fas fa-check"></i></span></td>
+                            <td><span class="cross"><i class="fas fa-times"></i></span></td>
                         </tr>
 
                     </tbody>
@@ -914,44 +1037,40 @@
         <div class="container">
             <!-- Section Heading -->
             <div class="section-heading center mb-0-max414 mb-0 pb-2">
-                <h2 class="heading text-indigo headlinesFont titleColor">Prizes and Cooperations</h2>
+                <h2 class="heading text-indigo headlinesFont titleColor">Award-Winning Technology Trusted by Leading Companies</h2>
 
             </div>
 
             <div class="row">
-                <div class="col-md-6 col-sm-12">
+                <div class="col-md-12 col-sm-12">
                     <div class="row justify-content-center">
-                        <h6 class="paragraph bodyFont w-100 text-center">Our technology has won awards from </h6>
-                        <div class="col-md-4 col-sm-4 text-575-center">
-                            <img src="./assets/img/logoSection/hkma.png" width="100%">
-                        </div>
-                        <div class="col-md-4 col-sm-4 text-575-center">
-                            <img src="./assets/img/logoSection/bis.png" width="100%">
-                        </div>
-                        <div class="col-md-4 col-sm-4 text-575-center">
-                            <img src="./assets/img/logoSection/aia.png" width="100%">
-                        </div>
-                        <div class="col-md-4 col-sm-4 text-575-center">
-                            <img src="./assets/img/logoSection/gaa.png" width="100%">
-                        </div>
-                        <div class="col-md-4 col-sm-4 text-575-center">
-                            <img src="./assets/img/logoSection/zurich-insurance.png" width="100%">
-                        </div>
-                    </div>
 
-                </div>
+                        <!-- <h6 class="paragraph bodyFont w-100 text-center">Our technology has won awards from </h6> -->
+                        <div class="col-md-4 col-sm-4 text-center">
+                            <img src="./assets/img/logoSection/hkma.png" width="70%">
+                        </div>
+                        <div class="col-md-4 col-sm-4 text-center">
+                            <img src="./assets/img/logoSection/bis.png" width="70%">
+                        </div>
+                        <div class="col-md-4 col-sm-4 text-center">
+                            <img src="./assets/img/logoSection/aia.png" width="70%">
+                        </div>
+                        <div class="col-md-4 col-sm-4 text-center">
+                            <img src="./assets/img/logoSection/hkstp2.png" width="70%">
+                        </div>
+                        <div class="col-md-4 col-sm-4 text-center">
+                            <img src="./assets/img/logoSection/zurich-insurance.png" width="70%">
+                        </div>
 
-                <div class="col-md-6 col-sm-12">
-                    <div class="row justify-content-center">
-                        <h6 class="paragraph bodyFont w-100 text-center">We have cooperated with</h6>
-                        <div class="col-md-4 col-sm-4 text-575-center">
-                            <img src="./assets/img/logoSection/ventureLAB.png" width="100%">
+                        <!-- <h6 class="paragraph bodyFont w-100 text-center">In cooperation with</h6> -->
+                        <div class="col-md-4 col-sm-4 text-center">
+                            <img src="./assets/img/logoSection/ventureLAB.png" width="70%">
                         </div>
-                        <div class="col-md-4 col-sm-4 text-575-center">
-                            <img src="./assets/img/logoSection/toronto.png" width="100%">
+                        <div class="col-md-4 col-sm-4 text-center">
+                            <img src="./assets/img/logoSection/centurion.png" width="70%">
                         </div>
-                        <div class="col-md-4 col-sm-4 text-575-center">
-                            <img src="./assets/img/logoSection/algorand_full_logo_black.png" width="100%">
+                        <div class="col-md-4 col-sm-4 text-center">
+                            <img src="./assets/img/logoSection/algorand_full_logo_black.png" width="70%">
                         </div>
                     </div>
 
@@ -959,7 +1078,7 @@
             </div>
         </div>
     </div>
-
+    <!-- <img class="logo-transparent " src="images/ImmunodexLogos/logo/ventureLAB Logo - reverse2.png" style="width:227px;height:55px"> -->
 
 
     <div class="section bg-overlay bg-overlay-gradient-blue" data-uhd="" data-bg="images/pexels-photo-408503.jpg" style="background-image: url(&quot;assets/img/backgrounds/bg-1.jpg&quot;);">
@@ -971,9 +1090,10 @@
                                         </a> -->
                 <h2 class="heading headlinesFont"></h2>
                 <div class="titleColor">
-                    <h2 class="heading headlinesFont" style="color: #1f262f !important;">COVID-19 won't be the last pandemic. Manage your organization's health today - and be prepared for the next health challenge </h2>
+                    <h2 class="heading headlinesFont" style="color: #1f262f !important;">Covid-19 won't be the last pandemic. Manage your organization's health today - and be prepared for the next health challenge. </h2>
                 </div>
-                <p class="paragraph bodyFont" style="color: black;">Help us help you break out of the outbreak.</p>
+                <p class="paragraph bodyFont" style="color: black;">Ready to get started?<br>
+                    30-day free trial.No credit card.No obligation.</p>
                 <br />
                 <div class="actions sp-layer" data-show-transition="up" data-show-delay="500" data-show-duration="500" style="padding-top: 25px;">
                     <a href="./request-for-demo.html" class="btn shadow-xl getImmunodex navyBlueHover">Book a demo</a>
@@ -1043,7 +1163,7 @@
                             <a href="./contactUs.html" class="bodyFont">Contact Us</a>
                         </li>
                         <li>
-                            <a href="./request-for-demo.html" class="bodyFont">Request Demo</a>
+                            <a href="./request-for-demo.html" class="bodyFont">Book a demo</a>
                         </li>
                     </ul>
                 </div>
